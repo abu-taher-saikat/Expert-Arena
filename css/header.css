@@ -132,3 +132,46 @@
     /* background-color: #3e8e41; */
   }
 /* dropdown */
+
+
+
+/* hambarger */
+.hamburger{
+    background: transparent;
+    border: 0;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger:focus{
+    outline: none;
+}
+
+
+
+@media screen and (max-width : 767px){
+    #nav-section{
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    #nav-section ul{
+        flex-direction: column;
+    }
+    #nav-section.show{
+        /* display: none!important; */
+        display: flex!important;
+    }
+
+    .hamburger{
+        display: block;
+        color: black;
+    }
+    .nav-section .show{
+        display: flex;
+    }
+}
+
+/* hambarger */
