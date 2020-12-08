@@ -6,3 +6,5 @@
 @import './assets/css/_modify.css';
 /* header css */
 @import './css/header.css';
+/* hero css */
+@import './css/hero.css'
