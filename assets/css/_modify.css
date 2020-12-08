@@ -1,0 +1,6 @@
+.small-white-text{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: var(--main-font);
+    color: white;
+}
