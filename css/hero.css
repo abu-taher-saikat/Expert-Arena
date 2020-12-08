@@ -14,3 +14,17 @@
 .swiper-button-prev{
     display: none;
 }
+
+.web-dev > .container{
+    display: table;
+}
+
+.big-text{
+    /* display: table-cell; */
+    /* vertical-align: center; */
+}
+
+.middle{
+    display: table-cell; 
+    vertical-align: center;
+}
