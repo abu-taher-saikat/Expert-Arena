@@ -1,3 +1,46 @@
-.what_we_do .top-section .small-intro {
-    
+.what_we_do{
+    position: relative;
+}
+.what_we_do > .container {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+
+.what-we-do-card{
+    /* width: 100%; */
+    margin: 0 auto;
+    margin-bottom: 40px;
+    /* border: 1px solid black; */
+}
+
+.card-logo{
+    text-align: center;
+}
+.card-logo img{
+    width: 150px;
+    height: 150px;
+}
+.card-head{
+    font-family: var(--main-font);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: .7rem;
+}
+.card-deam-text{
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+
+.what_we_do .bottom-section{
+    margin-top: 6.25rem;
+}
+
+.what_we_do .bg{
+    position: absolute;
+    top: 0;
+    left: 7!important;
 }
