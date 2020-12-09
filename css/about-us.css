@@ -35,3 +35,14 @@
     display: flex;
     justify-content: center;
 }
+
+
+
+@media screen and (max-width: 768px){
+    .about-us .bg-left{
+        display: none!important;
+    }
+    .about-us .bg-right{
+        display: none!important;
+    }
+}
