@@ -7,4 +7,6 @@
 /* header css */
 @import './css/header.css';
 /* hero css */
-@import './css/hero.css'
+@import './css/hero.css';
+/* what we do */
+@import './css/what-we-do.css';
