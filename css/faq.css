@@ -67,3 +67,10 @@
 }
 
 /* accrodain part end here */
+
+/* player */
+.faq .player{
+    /* width: 800px; */
+    z-index: -5!important;
+    /* height: 400px; */
+}

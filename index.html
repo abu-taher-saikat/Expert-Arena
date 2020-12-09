@@ -96,8 +96,8 @@
     <section>
         <div class="hero">
             <!-- Swiper -->
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
+            <div class="swiper-container swiper1">
+                <div class="swiper-wrapper ">
                     <!-- div1 -->
                     <div class="swiper-slide">
                         <div class="web-dev">
@@ -141,7 +141,7 @@
                     <!-- /div4 -->
                 </div>
                 <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination swiper-pagination1"></div>
                 <!-- Add Arrows -->
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -230,11 +230,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <lottie-player src="img/faq.json" background="transparent" speed="1"
-                        style="min-width: 400px; min-height: 400px;" loop autoplay>
+                    <lottie-player class="player" src="img/faq.json" background="transparent" speed="1" style="" loop
+                        autoplay>
                     </lottie-player>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mt-5">
                     <p class="small-intro">Frequently Asked Questions</p>
                     <h4 class="main-heading">Get Every Single Answers There if you want</h4>
 
@@ -242,16 +242,20 @@
                     <div class="holder mt-5">
                         <button class="accordion">What is the price of a business website?</button>
                         <div class="panel">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
                                 laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                     </div>
                     <div class="holder">
                         <button class="accordion">What is the price of a business website?</button>
                         <div class="panel">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
                                 laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                     </div>
@@ -259,8 +263,10 @@
                     <div class="holder">
                         <button class="accordion">What is the price of a business website?</button>
                         <div class="panel">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
                                 laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
                     </div>
@@ -273,6 +279,76 @@
     </section>
     <!-- /faq -->
 
+
+    <!-- meet out expert -->
+    <!-- <section class="meet-our-experts">
+        <div class="blue-line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8"> -->
+                        <!-- swiper --> 
+                        <!-- <div class="swiper-container swiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="round-box-1 text-center">
+                                        <h3>Team</h3>
+                                        <h3>Meet Our Expert</h3>
+                                        <img src="img/person1.png" alt="">
+                                        <p>Ahsan Habib</p>
+                                        <p>Founder & CEO</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">Slide 2</div>
+                                <div class="swiper-slide">Slide 3</div>
+                            </div> -->
+                            <!-- Add Pagination -->
+                            <!-- <div class="swiper-pagination swiper-pagination2"></div> -->
+                            <!-- Add Arrows -->
+                            <!-- <div class="swiper-button-next next2"></div> -->
+                            <!-- <div class="swiper-button-prev prev2"></div> -->
+                            <!-- /swiper -->
+                        <!-- </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h1>hi saikat is here</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+    <!-- /meet out expert -->
+
+
+
+
+    <!-- news letter section -->
+    <section class="newsletter">
+        <!-- <div class="container-fluid"> -->
+
+            <img class="img" src="img/subscribe-bg-1.png" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="main-heading">Subscribe Our Newsletter</h3>
+                        <p class="deam-text pb-5">Lorem ipsum dolor sit amet, consetetur sadiping elitr, sed dinonumy
+                            eirmod tempor invidunt ut labore.</p>
+
+                        <form action="">
+                            <div class="w-100 pb-3">
+                                <input type="email" placeholder="write your email" name="email" id="email">
+                            </div>
+                            <button class="basic-button" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <lottie-player src="img/subscribe1.json"  background="transparent"  speed="1" loop autoplay></lottie-player>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+    <!-- /news letter section -->
 
 
 
@@ -289,7 +365,25 @@
     <script src="js/script.js"></script>
 
     <script>
-        var swiper = new Swiper('.swiper-container', {
+        var swiper1 = new Swiper('.swiper1', {
+            spaceBetween: 0,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination1',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+
+        var swiper2 = new Swiper('.swiper2', {
             spaceBetween: 0,
             centeredSlides: true,
             // autoplay: {
@@ -297,12 +391,12 @@
             //     disableOnInteraction: false,
             // },
             pagination: {
-                el: '.swiper-pagination',
+                el: '.swiper-pagination2',
                 clickable: true,
             },
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.next2',
+                prevEl: '.prev2',
             },
         });
     </script>

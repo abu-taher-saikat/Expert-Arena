@@ -1,0 +1,35 @@
+.newsletter .main-heading{
+    text-align: left;
+}
+.newsletter .deam-text{
+    text-align: left;
+}
+
+.newsletter input{
+    width: 90%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /* outline: none; */
+}
+
+.newsletter{
+    position: relative;
+}
+.newsletter .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.newsletter .img{
+    max-height: 400px;
+    /* top: -100px; */
+    /* top: 0; */
+    left: -100px;
+    /* left: -300px; */
+    position: absolute;
+    transform: rotateX(10deg);
+
+}
+
+
+
