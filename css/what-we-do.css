@@ -41,6 +41,11 @@
 
 .what_we_do .bg{
     position: absolute;
-    top: 0;
-    left: 7!important;
+    top: 10%;
+    left: 0;
+    padding-left: 40px;
+}
+
+.what_we_do .bg img{
+    max-width: 200px;
 }

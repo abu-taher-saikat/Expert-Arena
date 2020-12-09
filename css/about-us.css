@@ -1,0 +1,37 @@
+.about-us{
+    position: relative;
+}
+
+.about-us .bg-left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.about-us .bg-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.about-us .container{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+
+.about-us .container .deam-text{
+    width: 100%;
+}
+
+.about-us .bg-right, .bg-left{
+    z-index: -2;
+    opacity: .9;
+}
+
+.about-us  .button-parent{
+    display: flex;
+    justify-content: center;
+}
