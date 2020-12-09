@@ -1,7 +1,7 @@
 .footer{
     background-image: url('../img/footer.png');
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
 }
 
 .footer .footer-1{
@@ -15,7 +15,7 @@
 }
 .footer ul li{
     list-style-type: none;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
 }
 
 .footer ul li a{
@@ -26,4 +26,34 @@
 
 .footer ul li a img{
     padding-right: 10px;
+}
+
+.footer2-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer2-logo li{
+    padding-top: 10px;
+}
+
+.final-footer p{
+    padding: 10px 0px;
+    font-size: 15px;
+    color: white;
+}
+
+.footer .divider{
+    color: white;
+    /* margin-top: 5px; */
+}
+
+.footer::before{
+    content: '';
+    display: table;
+}
+
+.footer::after{
+    content: "";
+    display: table;
 }
