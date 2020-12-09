@@ -1,0 +1,29 @@
+.footer{
+    background-image: url('../img/footer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer .footer-1{
+    padding-top: 3.5rem;
+}
+.footer .footer-sec-header{
+    color: white;
+    font-size: 20px!important;
+    font-family: var(--main-font);
+    /* font-weight: 400; */
+}
+.footer ul li{
+    list-style-type: none;
+    line-height: 1.5rem;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #8C9299;
+    font-size: 15px;
+}
+
+.footer ul li a img{
+    padding-right: 10px;
+}
