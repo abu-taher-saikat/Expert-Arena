@@ -1,45 +1,19 @@
-.meet-our-experts {
-    /* margin-top: 100px; */
-}
-
-
-.meet-our-experts .blue-line {
-    /* margin-top: 3rem;
-    margin-bottom: 3rem; */
-    /* height: 490px; */
-    background-image: linear-gradient(90deg, #00ADB5 -0.87%, rgba(0, 173, 181, 0.8) 95.73%), url('../img/team-bg.png');
-    /* background-image: url('../img/team-final-bg.png'); */
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-.meet-our-experts .swiper-wrapper{
-    min-height: 30.625rem;
-    min-width: 30.625rem;
-}
-
-.meet-our-experts .swiper-slide{
-    border: 1px solid black;
-    height: auto;
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-}
-
-.swiper-button-next-1{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.meet-our-experts .round-box-1{
+.swiper-3d{
     width: 100%;
-    height: 100%;
-    min-height: 30.625rem;
-    min-width: 30.625rem;
-    background-color: white;
-    border-radius: 50%;
-    z-index: 10000!important;
-    border: 2px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+
+  .swiper-slide-3d {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+
+  }
+
+
+.swiper-3d .card{
+    margin: 0 auto;
 }
