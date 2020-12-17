@@ -12,7 +12,10 @@
 @import './css/sub-what-we-offer.css';
 /* techonoliges */
 @import './css/techonologies.css';
-
+/* form section */
+@import './css/sub-from-section.css';
+/* team support */
+@import 'css/sub-team-support.css';
 
 /* footer */
 @import './css/footer.css';

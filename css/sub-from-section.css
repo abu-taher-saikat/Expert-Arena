@@ -1,0 +1,48 @@
+.form-section{
+    /* background: #00acb5 , url(partners-banner1.jpg), ; */
+    background: url(./../img/handshake.png) repeat #00acb5;
+    background-blend-mode: multiply;
+
+}
+.form-section .form-group textarea{
+    padding: 10px;
+}
+
+.form-section input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.form-section .main-form{
+    width: 55%;
+}
+
+.pad-option{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.sub-form-button{
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.sub-form-button:checked{ 
+    border: none;
+}
+
+@media screen and (max-width:769px){
+    .form-section .main-form{
+    width: 100%;
+}
+}
+
+
+section{
+    width: 100%!important;
+}
