@@ -1,0 +1,25 @@
+.sub-what-we-offer .container{
+    padding: 50px 0px;
+}
+
+.top-card{
+    /* border: 1px solid black; */
+    padding: 15px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 50px 1px rgba(76, 197, 203, 0.2);
+}
+
+.top-card p {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.boxes{
+    padding-top: 50px;
+}
+
+
+

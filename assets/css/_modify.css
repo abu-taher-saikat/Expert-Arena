@@ -73,7 +73,7 @@
 
 
 /* [Sub page]  */
-.main-heading{
+.sub-main-heading{
     font-size: 48px;
     font-family: var(--main-font);
     font-weight: 600;
@@ -101,6 +101,29 @@
     text-decoration: none;
     color: white;
 }
+
+/* [development section start ] */
+.sub-card-heading{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 28px;
+}
+
+.sub-show-button{
+    background-color: #00adb5;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 5px 30px;
+}
+.sub-show-button:hover{
+    color: white;
+}
+/* [development section end ] */
 /* [Sub page]  */
 
 /* See Details */
