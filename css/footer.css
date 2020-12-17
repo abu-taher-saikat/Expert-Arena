@@ -59,7 +59,8 @@
 }
 
 .footer::after{
-    content: "";
+    content: " ";
+    overflow: hidden;
     display: table;
 }
 
@@ -115,5 +116,12 @@
 
     .final-footer{
         padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 321px) and ( max-width:768px){
+    .footer-2 .set{
+        margin: 0 auto!important;
+        align-items: center!important;        
     }
 }
