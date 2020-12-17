@@ -1,7 +1,7 @@
 .footer{
     background-image: url('../img/boby-footer-final.jpg');
     /* background-repeat: no-repeat; */
-    background-position: contain;
+    background-position: center;
 }
 
 .footer .footer-1{
