@@ -1,0 +1,51 @@
+/* .hero-section{
+    background-image: url('./../img/webdev/header\ bg-main.png');
+    height: 45rem;
+    background-position: contain;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    
+} */
+
+
+.hero{
+    position: relative;
+}
+.hero-bg-img{
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    /* right: 0; */
+    width: 100%;
+    overflow: hidden;
+    z-index: -10;
+    max-height: 480px;
+}
+
+.hero-section .row{
+    align-items: center;
+}
+.hero-img{
+    position: absolute;
+    bottom: 2rem;
+    /* left: 3rem; */
+    z-index: -4;
+}
+
+.main-heading{
+    padding-top: 6rem;
+}
+
+
+.sub-header-player{
+    margin-bottom: 60px;
+}
+
+.hero-section::after{
+    content: "";
+    display: table;
+    overflow: hidden;
+}

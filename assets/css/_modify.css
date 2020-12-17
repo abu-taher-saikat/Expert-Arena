@@ -1,3 +1,10 @@
+/* table of consept...
+* 1 [Landing page]
+* 2 [Sub Pages]
+*
+* */
+
+/* [landing page] */
 .small-white-text{
     font-size: 15px;
     font-weight: 700;
@@ -61,3 +68,40 @@
     padding: 10px 15px;
     color: #ffffff
 }
+
+/* [landing page end] */
+
+
+/* [Sub page]  */
+.main-heading{
+    font-size: 48px;
+    font-family: var(--main-font);
+    font-weight: 600;
+    text-align: left;
+}
+
+.small-paragraphs{
+ font-size: 16px;
+ color: var(--secondary-color);
+}
+
+.sub-basic-button{
+    background-color: #00adb5;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    /* padding: ; */
+    font-weight: 600;
+    line-height: 18px;
+    padding: 10px 40px;
+}
+
+.sub-basic-button:hover{
+    text-decoration: none;
+    color: white;
+}
+/* [Sub page]  */
+
+/* See Details */
+
