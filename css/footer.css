@@ -72,10 +72,7 @@
 
 
 
-.final-footer ul:nth-child(1){
-    /* display: flex;
-    flex-direction: row; */
-}
+
 
 .footer-2::after{
     content: " ";
