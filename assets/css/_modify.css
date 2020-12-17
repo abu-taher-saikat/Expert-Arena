@@ -110,6 +110,7 @@
     line-height: 28px;
 }
 
+
 .sub-show-button{
     background-color: #00adb5;
     border-radius: 50px;
@@ -123,6 +124,31 @@
 .sub-show-button:hover{
     color: white;
 }
+
+.sub-top-card{
+    /* border: 1px solid black; */
+    padding: 15px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 50px 1px rgba(76, 197, 203, 0.2);
+}
+
+.sub-boxes{
+    padding-top: 50px;
+}
+
+.sub-deam-text{
+    color: var(--secondary-color);
+    max-width: 650px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+
+
+
 /* [development section end ] */
 /* [Sub page]  */
 

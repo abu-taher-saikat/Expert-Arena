@@ -17,8 +17,8 @@
 .hero-bg-img{
     position: absolute;
     top: 0;
-    /* left: 0; */
-    /* right: 0; */
+    left: 0;
+    right: 0;
     width: 100%;
     overflow: hidden;
     z-index: -10;
@@ -30,7 +30,8 @@
 }
 .hero-img{
     position: absolute;
-    bottom: 2rem;
+    bottom: 0rem;
+    /* bottom: 2rem; */
     /* left: 3rem; */
     z-index: -4;
 }
@@ -48,4 +49,22 @@
     content: "";
     display: table;
     overflow: hidden;
+}
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+.sub-main-heading{
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width: 769px){
+    .sub-main-heading{
+        font-size: 30px;
+    }
 }
