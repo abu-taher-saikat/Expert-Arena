@@ -71,6 +71,7 @@
     justify-content: space-between; */
     width: 100%;
     overflow: hidden;
+    padding-bottom: 15px;
 }
 
 
@@ -106,7 +107,9 @@
 
 }
 
-
+hr{
+    margin: 10px 0px;
+}
 
 @media screen and (max-width:769px) {
     .footer-1 {
@@ -163,4 +166,11 @@
         align-items: center;
         justify-content: center;
     }
+}
+
+
+.clear-fix::before{
+    content: "";
+    display: table;
+    overflow: hidden;
 }
