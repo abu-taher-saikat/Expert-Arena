@@ -17,3 +17,143 @@
 .sub-boxes{
     overflow: hidden!important;
 }
+
+
+.sub-what-we-offer a{
+    cursor: pointer;
+}
+
+/* modal pop up section */
+
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container .line{
+/* position: absolute; */
+/* width: 224px; */
+ width: 100%;
+ height: 3px;
+ background: #00ADB5; 
+ opacity: 1;
+}
+.modal.open {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}
+.modal-bg {
+  position: absolute;
+  /* background: teal; */
+  background-color: black;
+  opacity: .5;
+  width: 100%;
+  height: 100%;
+}
+/* .popup-left{
+    background-image: url('./../img/designed-white-pop.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+} */
+.modal-container {
+  border-radius: 10px;
+  background: var(--main-color);
+  position: relative;
+  margin: 0 15px;
+  max-width: 600px;
+  /* height: 350px;  */
+  height: auto;
+  /* padding: 30px; */
+}
+.modal-container .content-text-div{
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.modal-container ul li{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 5px;
+}
+.white-img-popup{
+    position: absolute;
+
+}
+
+
+.modal-container .heading{
+    color: black;
+}
+
+.modal-container .white-img-popup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* width: 100%; */
+    max-width: 250px;
+}
+
+.pop-it-up{
+    position: relative;
+    padding-top: 55px;
+    padding-left: 20px;
+    z-index: 10!important;
+}
+.pop-it-up h5{
+    font-size: 25px;
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+.modal-container h5{
+    z-index: 2;
+}
+.modal-close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  outline: none;
+  appearance: none;
+  /* color: red; */
+  color: white;
+  z-index: 10;
+  background: none;
+  border: 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width : 769px){
+    .pop-it-up h5{
+        font-size: 22px;
+    }
+    .pop-it-up{
+        padding-top: 80px;
+    }
+    .modal-container .line {
+        width: 70%;
+    }
+
+    .modal-container ul li{
+        font-size: 12px;
+    } 
+}
+
+/* modal popup section */
