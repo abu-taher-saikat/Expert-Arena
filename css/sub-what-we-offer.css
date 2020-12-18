@@ -8,13 +8,13 @@
 
 
 
-.top-card p {
+.sub-what-we-offer .top-card p {
     text-align: left;
     padding-bottom: 10px;
 }
 
 
-.sub-boxes{
+.sub-what-we-offer .sub-boxes{
     overflow: hidden!important;
 }
 
@@ -25,7 +25,7 @@
 
 /* modal pop up section */
 
-.modal {
+.sub-what-we-offer .modal {
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -39,7 +39,7 @@
   justify-content: center;
 }
 
-.modal-container .line{
+.sub-what-we-offer .modal-container .line{
 /* position: absolute; */
 /* width: 224px; */
  width: 100%;
@@ -47,12 +47,12 @@
  background: #00ADB5; 
  opacity: 1;
 }
-.modal.open {
+.sub-what-we-offer .modal.open {
   visibility: visible;
   opacity: 1;
   transition-delay: 0s;
 }
-.modal-bg {
+.sub-what-we-offer .modal-bg {
   position: absolute;
   /* background: teal; */
   background-color: black;
@@ -65,7 +65,7 @@
     background-repeat: no-repeat;
     background-position: top left;
 } */
-.modal-container {
+.sub-what-we-offer .modal-container {
   border-radius: 10px;
   background: var(--main-color);
   position: relative;
@@ -75,7 +75,7 @@
   height: auto;
   /* padding: 30px; */
 }
-.modal-container .content-text-div{
+.sub-what-we-offer .modal-container .content-text-div{
     /* display: flex; */
     align-items: center;
     text-align: center;
@@ -83,24 +83,24 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.modal-container ul li{
+.sub-what-we-offer .modal-container ul li{
     list-style-type: none;
     font-size: 16px;
     font-weight: 600;
     color: white;
     padding-bottom: 5px;
 }
-.white-img-popup{
+.sub-what-we-offer .white-img-popup{
     position: absolute;
 
 }
 
 
-.modal-container .heading{
+.sub-what-we-offer .modal-container .heading{
     color: black;
 }
 
-.modal-container .white-img-popup{
+.sub-what-we-offer .modal-container .white-img-popup{
     position: absolute;
     top: 0;
     left: 0;
@@ -109,22 +109,22 @@
     max-width: 250px;
 }
 
-.pop-it-up{
+.sub-what-we-offer .pop-it-up{
     position: relative;
     padding-top: 55px;
     padding-left: 20px;
     z-index: 10!important;
 }
-.pop-it-up h5{
+.sub-what-we-offer .pop-it-up h5{
     font-size: 25px;
     font-family: var(--main-font);
     font-weight: bold;
 }
 
-.modal-container h5{
+.sub-what-we-offer .modal-container h5{
     z-index: 2;
 }
-.modal-close {
+.sub-what-we-offer .modal-close {
   position: absolute;
   right: 15px;
   top: 15px;
@@ -141,17 +141,17 @@
 
 
 @media screen and (max-width : 769px){
-    .pop-it-up h5{
+    .sub-what-we-offer .pop-it-up h5{
         font-size: 22px;
     }
-    .pop-it-up{
+    .sub-what-we-offer .pop-it-up{
         padding-top: 80px;
     }
-    .modal-container .line {
+    .sub-what-we-offer .modal-container .line {
         width: 70%;
     }
 
-    .modal-container ul li{
+    .sub-what-we-offer .modal-container ul li{
         font-size: 12px;
     } 
 }
