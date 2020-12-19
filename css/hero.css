@@ -4,8 +4,23 @@
     width: 100%;
 }
 
+.hero .graphic-design{
+    background-image: linear-gradient(90deg, #00ADB5 -0.87%, rgba(0, 173, 181, 0) 95.73%), url('../img/graphic-design-hero.jpg');
+    height: 100%;
+    width: 100%;
+}
 
+.hero .digital-marketing{
+    background-image: linear-gradient(90deg, #00ADB5 -0.87%, rgba(0, 173, 181, 0) 95.73%), url('../img/digital-marketing-hero.jpg');
+    height: 100%;
+    width: 100%;
+}
 
+.hero .data-entry{
+    background-image: linear-gradient(90deg, #00ADB5 -0.87%, rgba(0, 173, 181, 0) 95.73%), url('../img/data-entry-hero.jpg');
+    height: 100%;
+    width: 100%;
+}
 
 .swiper-slide {
     height: 100vh;
