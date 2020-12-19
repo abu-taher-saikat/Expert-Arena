@@ -1,9 +1,11 @@
 .hero .web-dev {
     background-image: linear-gradient(90deg, #00ADB5 -0.87%, rgba(0, 173, 181, 0) 95.73%), url('../img/hero_img_web_dev.png');
-
     height: 100%;
     width: 100%;
 }
+
+
+
 
 .swiper-slide {
     height: 100vh;

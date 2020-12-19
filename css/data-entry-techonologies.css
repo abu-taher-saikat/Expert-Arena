@@ -1,0 +1,21 @@
+.data-entry-logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.data-entry-logos img {
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 769px){
+    .data-entry-service-logos{
+        display: flex;
+        justify-content: center;
+    }
+    .data-entry-service-logos div{
+        display: flex;
+        justify-content: center;
+    }
+}
