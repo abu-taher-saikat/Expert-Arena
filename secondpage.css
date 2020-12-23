@@ -21,5 +21,12 @@
 /* team support */
 @import 'css/sub-team-support.css';
 
+
+/* about-us section */
+@import 'css/about-us-hero.css';
+@import 'css/welcome.css';
+@import 'css/our-process.css';
+/* about-us section */
+
 /* footer */
 @import './css/footer.css';
