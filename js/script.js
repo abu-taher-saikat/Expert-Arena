@@ -2,8 +2,8 @@ const hamburger = document.getElementById('hamburger');
 const navLink = document.getElementById('nav-section');
 
 
-hamburger.addEventListener('click',()=>{
-    navLink.classList.toggle('show');
+hamburger.addEventListener('click', () => {
+  navLink.classList.toggle('show');
 })
 
 
@@ -12,14 +12,14 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  acc[i].addEventListener("click", function () {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
+    }
   });
 }
 // accrodiain part end
@@ -44,3 +44,26 @@ modals.forEach(function (trigger) {
 });
 
 // trying to fix modal
+
+
+
+// addaing a google map
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  const uluru = {
+    lat: -25.344,
+    lng: 131.036
+  };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+// addaing a google map

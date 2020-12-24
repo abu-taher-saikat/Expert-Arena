@@ -1,0 +1,167 @@
+.get-in-touch .headphone{
+    margin-right: -100px;
+    margin-top: -30px;
+    width: 13.3125rem;
+
+}
+
+.get-in-touch .container-fluid{
+    width: 100%!important;
+    margin: 0;
+    overflow-x: hidden;
+}
+.get-in-touch .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.get-in-touch .bar{
+
+    border-left: 10px solid #3fc3c9;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+
+.get-in-touch{
+    position: relative;
+}
+
+.get-in-touch p{
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 1rem;
+}
+
+.get-in-touch .black-part{
+    position: absolute;
+    width: 25%;
+    left: 0;
+    z-index: -10;
+    height: 120%;
+    background-color: black;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    margin-top: -70px;
+    margin-bottom: 10px;
+    /* padding-bottom: 30px; */
+}
+
+.get-in-touch .black-part  li{
+    list-style-type: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.get-in-touch .black-part ul{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+#get-in-touch-left{
+    margin-top: 50px;
+    background-color: #f9f9f9;
+    background-blend-mode: multiply;
+}
+
+.get-in-touch #map::before{
+    content: "";
+    display: table;
+
+}
+.get-in-touch .black-part::after{
+    content: "";
+    display: table;
+}
+
+.get-in-touch .footer::before{
+ content: "";
+ display: table;
+ overflow: hidden;
+}
+
+.get-in-touch #map{
+    margin-top: 150px;
+}
+
+.get-in-touch .main-text{
+    color: #2ABCC3;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    text-decoration-color: #DBDBDB;
+    text-underline-position: under;
+}
+
+/* .map::before{
+    content: "";
+    display: table;
+    overflow: hidden;
+}
+
+.map::after{
+    content: " ";
+    display: table;
+    overflow: hidden;
+}
+
+#get-in-touch-left {
+    /* position: absolute; */
+    /* left: 0; */
+    /* background-color: #F9F9F9!important;
+    z-index: 10;
+    margin-left: -105px;
+} */
+/* 
+#get-in-touch-left::after{
+    display: table;
+    content: "";
+}
+
+
+#get-in-touch-right{
+    position: absolute;
+    right: 0;
+}
+
+.get-in-touch .black-part{
+    display: flex;
+    justify-content: center;
+}
+
+.get-in-touch .logo-section{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:  auto;
+    margin-bottom: 30px;
+
+}
+
+.get-in-touch .logo-section li{
+    list-style-type: none;
+    padding: 0px 5px;
+    padding-bottom: 5px; */
+/* } */ 
+/*  */
+
+ .h-divider{
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width: 769px){
+    .get-in-touch #black{
+        /* display: none!important; */
+        opacity: 0!important;
+        display: none;
+    }
+
+    .h-divider{
+        margin-top: 50px!important;
+    }
+
+    .get-in-touch .container{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

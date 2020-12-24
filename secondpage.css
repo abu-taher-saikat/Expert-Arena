@@ -28,5 +28,9 @@
 @import 'css/our-process.css';
 /* about-us section */
 
+/* Contact-us section */
+@import 'css/get-in-touch.css';
+/* Contact-us section */
+
 /* footer */
 @import './css/footer.css';
