@@ -92,3 +92,6 @@ function initMap() {
 
 
 
+// aos
+AOS.init();
+
