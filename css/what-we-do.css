@@ -12,7 +12,20 @@
     margin: 0 auto;
     margin-bottom: 40px;
     /* border: 1px solid black; */
+    padding: 20px;
+    transition: box-shadow 2s;
 }
+
+/* Rectangle 55 */
+
+.what-we-do-card:hover{
+    box-shadow: 2px 2px 50px 1px rgba(76, 197, 203, 0.2);
+    cursor: pointer;
+}
+
+
+
+
 
 .card-logo{
     text-align: center;

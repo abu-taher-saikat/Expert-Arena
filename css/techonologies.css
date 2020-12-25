@@ -9,7 +9,15 @@
     /* padding: 10px; */
     margin-bottom: 25px;
     max-width: 80px;
+    max-height: 80px;
 }
 
 
+.fix002{
+    display: flex;
+    justify-content: center;
+}
 
+.fix003{
+    padding: 10px;
+}
