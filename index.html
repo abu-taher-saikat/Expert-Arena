@@ -1,540 +1,788 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- fontawesome will remover letter -->
-    <script src="https://kit.fontawesome.com/e264635c4f.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e264635c4f.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- swiper js css -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <!-- bootstrap cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!-- aos animation css-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- custom css -->
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- header start -->
     <header class="header">
-
-        <div class="container-fluid">
-            <div class="top-header d-none d-md-block">
-                <div class="container">
-                    <div class="d-flex justify-content-between">
-                        <div class="top-header-left">
-                            <ul class="d-flex">
-                                <li><span><img src="img/whatsapp.png" alt=""></span>+880 179009 2627</li>
-                                <li><span><img src="img/email.png" alt=""></span>expertarena@gmail.com</li>
-                            </ul>
-                        </div>
-                        <div class="top-header-right">
-                            <ul class="d-flex align-items-center">
-                                <li class="align-self-center">
-                                    <a class="t-head-logo upwork" href="#">
-                                        <img src="img/upwork.png" alt="Upwork link">
-                                    </a>
-                                </li>
-                                <li class="align-self-center">
-                                    <a class="t-head-logo freelancer" href="#">
-                                        <img src="img/freelancer.png" alt="Freelancer link">
-                                    </a></li>
-                                <li class="align-self-center">
-                                    <a class="t-head-logo fiverr" href="#">
-                                        <img src="img/fiverr.png" alt="Fiverr Link">
-                                    </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div class="container-fluid">
+        <div class="top-header d-none d-md-block">
+          <div class="container">
+            <div class="d-flex justify-content-between">
+              <div class="top-header-left">
+                <ul class="d-flex">
+                  <li>
+                    <span><img src="img/whatsapp.png" alt="" /></span>+880 1717
+                    4094 95
+                  </li>
+                  <li>
+                    <span><img src="img/email.png" alt="" /></span
+                    >expertarena@gmail.com
+                  </li>
+                </ul>
+              </div>
+              <div class="top-header-right">
+                <ul class="d-flex align-items-center">
+                  <li class="align-self-center">
+                    <a class="t-head-logo upwork" href="#">
+                      <img src="img/upwork.png" alt="Upwork link" />
+                    </a>
+                  </li>
+                  <li class="align-self-center">
+                    <a class="t-head-logo freelancer" href="#">
+                      <img src="img/freelancer.png" alt="Freelancer link" />
+                    </a>
+                  </li>
+                  <li class="align-self-center">
+                    <a class="t-head-logo fiverr" href="#">
+                      <img src="img/fiverr.png" alt="Fiverr Link" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <!-- /top header -->
-
-
-            <!-- main header -->
-
-            <!-- /main header -->
-            <main >
-                <div class="container">
-                    <div class="main-header d-flex justify-content-between flex-wrap">
-                        <div class="logo">
-                            <a href="index.html"><img src="img/main-logo-header.png" alt=""></a>
-                        </div>
-
-                        <button class="hamburger" id="hamburger">
-                            <i class="fas fa-bars"></i>
-                        </button>
-                        <div class="nav-section" id="nav-section">
-                            <ul>
-                                <li class="active-class active"><a class="active" href="index.html">Home</a></li>
-                                <li class="dropdown active-class">
-                                    <a class="dropbtn" href="#">Service</a>
-                                    <div class="dropdown-content">
-                                        <a href="web-development.html">Web Design</a>
-                                        <a href="graphic-design.html">Graphic Design</a>
-                                        <a href="digital-marketing.html">Email Marketing</a>
-                                        <a href="data-entry.html">Data Entry</a>
-                                    </div>
-                                </li>
-                                <li class="active-class "><a href="about-us.html">About</a></li>
-
-                                <li class="active-class "><a href="contact-us.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </main>
-            <!-- main section end -->
+          </div>
         </div>
+        <!-- /top header -->
 
+        <!-- main header -->
+
+        <!-- /main header -->
+        <main>
+          <div class="container">
+            <div class="main-header d-flex justify-content-between flex-wrap">
+              <div class="logo">
+                <a href="index.html"
+                  ><img src="img/main-logo-header.png" alt=""
+                /></a>
+              </div>
+
+              <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="nav-section" id="nav-section">
+                <ul>
+                  <li class="active-class active">
+                    <a class="active" href="index.html">Home</a>
+                  </li>
+                  <li class="dropdown active-class">
+                    <a class="dropbtn" href="#">Service</a>
+                    <div class="dropdown-content">
+                      <a href="web-development.html">Web Design</a>
+                      <a href="graphic-design.html">Graphic Design</a>
+                      <a href="digital-marketing.html">Email Marketing</a>
+                      <a href="data-entry.html">Data Entry</a>
+                    </div>
+                  </li>
+                  <li class="active-class">
+                    <a href="about-us.html">About</a>
+                  </li>
+
+                  <li class="active-class">
+                    <a href="contact-us.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </main>
+        <!-- main section end -->
+      </div>
     </header>
     <!-- header end -->
 
-
     <!-- hero section start   -->
     <section>
-        <div class="hero">
-            <!-- Swiper -->
-            <div class="swiper-container swiper1">
-                <div class="swiper-wrapper ">
-                    <!-- div1 -->
-                    <div class="swiper-slide">
-                        <div class="web-dev">
-                            <div class="container">
-                                <div class="middle">
-                                    <h1 class="big-text">Web <br> Development</h1>
-                                    <p class="small-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                                        seddinonumy
-                                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                                    <button class="our-service mt-4">Our Service</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /div 1 -->
-
-                    <!-- div 2 -->
-                    <div class="swiper-slide">
-                        <div class="graphic-design">
-                            <div class="container">
-                                <div class="middle">
-                                    <h1 class="big-text">Graphic <br> Design</h1>
-                                    <p class="small-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                                        seddinonumy
-                                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                                    <button class="our-service mt-4">Our Service</button>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- /div 2 -->
-
-                    <!-- div3 -->
-                    <div class="swiper-slide">
-                        <div class="digital-marketing">
-                            <div class="container">
-                                <div class="middle">
-                                    <h1 class="big-text">Digital <br> Marketing</h1>
-                                    <p class="small-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                                        seddinonumy
-                                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                                    <button class="our-service mt-4">Our Service</button>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- /div3 -->
-
-                    <!-- div4 -->
-                    <div class="swiper-slide">
-                        <div class="data-entry">
-                            <div class="container">
-                                <div class="middle">
-                                    <h1 class="big-text">Data <br> Entry</h1>
-                                    <p class="small-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                                        seddinonumy
-                                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                                    <button class="our-service mt-4">Our Service</button>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- /div4 -->
+      <div class="hero">
+        <!-- Swiper -->
+        <div class="swiper-container swiper1">
+          <div class="swiper-wrapper">
+            <!-- div1 -->
+            <div class="swiper-slide">
+              <div class="web-dev">
+                <div class="container">
+                  <div class="middle">
+                    <h1 class="big-text">
+                      Web <br />
+                      Development
+                    </h1>
+                    <p class="small-text">
+                      We provide a wide range of solutions to businesses,
+                      individuals, and organizations of varying sizes. Our
+                      services include web development, digital marketing
+                      strategy, graphic design,<br />
+                      e-commerce solutions, and data entry. Let's talk about
+                      your needs...!
+                    </p>
+                    <button class="our-service mt-4">Our Service</button>
+                  </div>
                 </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination swiper-pagination1"></div>
-                <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+              </div>
             </div>
+            <!-- /div 1 -->
+
+            <!-- div 2 -->
+            <div class="swiper-slide">
+              <div class="graphic-design">
+                <div class="container">
+                  <div class="middle">
+                    <h1 class="big-text">
+                      Graphic <br />
+                      Design
+                    </h1>
+                    <p class="small-text">
+                      We provide a wide range of solutions to businesses,
+                      individuals, and organizations of varying sizes. Our
+                      services include web development, digital marketing
+                      strategy, graphic design,<br />
+                      e-commerce solutions, and data entry. Let's talk about
+                      your needs...!
+                    </p>
+                    <button class="our-service mt-4">Our Service</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /div 2 -->
+
+            <!-- div3 -->
+            <div class="swiper-slide">
+              <div class="digital-marketing">
+                <div class="container">
+                  <div class="middle">
+                    <h1 class="big-text">
+                      Digital <br />
+                      Marketing
+                    </h1>
+                    <p class="small-text">
+                      We provide a wide range of solutions to businesses,
+                      individuals, and organizations of varying sizes. Our
+                      services include web development, digital marketing
+                      strategy, graphic design,<br />
+                      e-commerce solutions, and data entry. Let's talk about
+                      your needs...!
+                    </p>
+                    <button class="our-service mt-4">Our Service</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /div3 -->
+
+            <!-- div4 -->
+            <div class="swiper-slide">
+              <div class="data-entry">
+                <div class="container">
+                  <div class="middle">
+                    <h1 class="big-text">
+                      Data <br />
+                      Entry
+                    </h1>
+                    <p class="small-text">
+                      We provide a wide range of solutions to businesses,
+                      individuals, and organizations of varying sizes. Our
+                      services include web development, digital marketing
+                      strategy, graphic design,<br />
+                      e-commerce solutions, and data entry. Let's talk about
+                      your needs...!
+                    </p>
+                    <button class="our-service mt-4">Our Service</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /div4 -->
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination swiper-pagination1"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
+      </div>
     </section>
     <!-- hero section end   -->
 
-
-
     <!-- what we do -->
-    <section class="what_we_do" style="overflow: hidden;">
-        <div class="container">
-            <div class="top-section">
-                <p class="small-intro">What We Do</p>
-                <h4 class="main-heading">Best Solutions For Your Needs</h4>
-                <p class="deam-text">Expert Arena IT Solution launched a multi-skilled and multi-dimensional IT service
-                    provider. We are doing web design and development, digital marketing, graphics design, ux/ui design,
-                    and data entry.</p>
-            </div>
-            <div class="bg">
-                <img src="img/background1.png" alt="">
-            </div>
-
-            <div class="bottom-section">
-                <div class="row">
-                    <div data-aos="fade-up" data-aos-duration="000" class="col-md-3 what-we-do-card">
-                        <p class="card-logo"><img src="img/web-development.png" alt=""></p>
-                        <h4 class="card-head">Web Development</h4>
-                        <p class="card-deam-text">Web development can range from developing the simplest static website
-                            for most complex web-based internet applications.</p>
-                    </div>
-
-                    <div data-aos="fade-up" data-aos-duration="1000" class="col-md-3 what-we-do-card">
-                        <p class="card-logo"><img src="img/email-marketing.png" alt=""></p>
-                        <h4 class="card-head">Email Marketing</h4>
-                        <p class="card-deam-text">Web development can range from developing the simplest static website
-                            for most complex web-based internet applications.</p>
-                    </div>
-
-                    <div data-aos="fade-up" data-aos-duration="2000" class="col-md-3 what-we-do-card">
-                        <p class="card-logo"><img src="img/graphic-design.png" alt=""></p>
-                        <h4 class="card-head">Graphics Design</h4>
-                        <p class="card-deam-text">Web development can range from developing the simplest static website
-                            for most complex web-based internet applications.</p>
-                    </div>
-
-                    <div data-aos="fade-up" data-aos-duration="2500" class="col-md-3 what-we-do-card">
-                        <p class="card-logo"><img src="img/data-entry.png" alt=""></p>
-                        <h4 class="card-head">Data Entry</h4>
-                        <p class="card-deam-text">Web development can range from developing the simplest static website
-                            for most complex web-based internet applications.</p>
-                    </div>
-                </div>
-            </div>
+    <section class="what_we_do" style="overflow: hidden">
+      <div class="container">
+        <div class="top-section">
+          <p class="small-intro">What We Do</p>
+          <h4 class="main-heading">Best Solutions For Your Needs</h4>
+          <p class="deam-text">
+            Expert Arena IT Solution launched a multi-skilled and
+            multi-dimensional IT service provider. We are doing web design and
+            development, digital marketing, graphics design, ux/ui design, and
+            data entry.
+          </p>
         </div>
+        <div class="bg">
+          <img src="img/background1.png" alt="" />
+        </div>
+
+        <div class="bottom-section">
+          <div class="row">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="000"
+              class="col-md-3 what-we-do-card"
+            >
+              <p class="card-logo">
+                <img src="img/web-development.png" alt="" />
+              </p>
+              <h4 class="card-head">Web Development</h4>
+              <p class="card-deam-text">
+                Web development can range from developing the simplest static
+                website for most complex web-based internet applications.
+              </p>
+            </div>
+
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              class="col-md-3 what-we-do-card"
+            >
+              <p class="card-logo">
+                <img src="img/email-marketing.png" alt="" />
+              </p>
+              <h4 class="card-head">Email Marketing</h4>
+              <p class="card-deam-text">
+                Web development can range from developing the simplest static
+                website for most complex web-based internet applications.
+              </p>
+            </div>
+
+            <div
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              class="col-md-3 what-we-do-card"
+            >
+              <p class="card-logo">
+                <img src="img/graphic-design.png" alt="" />
+              </p>
+              <h4 class="card-head">Graphics Design</h4>
+              <p class="card-deam-text">
+                Web development can range from developing the simplest static
+                website for most complex web-based internet applications.
+              </p>
+            </div>
+
+            <div
+              data-aos="fade-up"
+              data-aos-duration="2500"
+              class="col-md-3 what-we-do-card"
+            >
+              <p class="card-logo"><img src="img/data-entry.png" alt="" /></p>
+              <h4 class="card-head">Data Entry</h4>
+              <p class="card-deam-text">
+                Web development can range from developing the simplest static
+                website for most complex web-based internet applications.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- /what we do -->
 
     <!-- about us -->
-    <section class="about-us" style="overflow: hidden;">
-        <div class="container-fluid fixer">
-            <div class="bg-left">
-                <img style="height: 400px;" src="img/about-bg-left.png" alt="">
-            </div>
-            <div class="bg-right">
-                <img style="height: 400px;" src="img/about-bg-right.png" alt="">
-            </div>
-            <div data-aos="fade-up-left" data-aos-duration="1000" class="container">
-                <p class="small-intro">About Us</p>
-                <h4 class="main-heading">Welcome to our agency</h4>
-                <p class="deam-text py-3">The Expert Arena IT Solution is full of highly skilled and experienced crew.
-                    We are a multi-skilled online-based service providing company. We know our customer needs and never
-                    compromise with quality. We specialize in all the fields equally and providing excellent output.
-                </p>
-                <p class="button-parent"><button class="basic-button mt-4">Read More</button></p>
-            </div>
+    <section class="about-us" style="overflow: hidden">
+      <div class="container-fluid fixer">
+        <div class="bg-left">
+          <img style="height: 400px" src="img/about-bg-left.png" alt="" />
         </div>
+        <div class="bg-right">
+          <img style="height: 400px" src="img/about-bg-right.png" alt="" />
+        </div>
+        <div data-aos="fade-up-left" data-aos-duration="1000" class="container">
+          <p class="small-intro">About Us</p>
+          <h4 class="main-heading">Welcome to our agency</h4>
+          <p class="deam-text py-3">
+            The Expert Arena IT Solution is full of highly skilled and
+            experienced crew. We are a multi-skilled online-based service
+            providing company. We know our customer needs and never compromise
+            with quality. We specialize in all the fields equally and providing
+            excellent output.
+          </p>
+          <p class="button-parent">
+            <button class="basic-button mt-4">Read More</button>
+          </p>
+        </div>
+      </div>
     </section>
     <!-- /about us -->
 
-
-
     <!-- faq -->
     <section class="faq">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <lottie-player class="player" src="img/faq.json" background="transparent" speed="1" loop autoplay>
-                    </lottie-player>
-                </div>
-                <div data-aos="flip-right" data-aos-duration="1000" class="col-md-6 mt-5">
-                    <p class="small-intro">Frequently Asked Questions</p>
-                    <h4 class="main-heading">Get Every Single Answers There if you want</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <lottie-player
+              class="player"
+              src="img/faq.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            >
+            </lottie-player>
+          </div>
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            class="col-md-6 mt-5"
+          >
+            <p class="small-intro">Frequently Asked Questions</p>
+            <h4 class="main-heading">
+              Get Every Single Answers There if you want
+            </h4>
 
-                    <!-- accrodain -->
-                    <div  class="holder mt-5">
-                        <button class="accordion">What is our process?</button>
-                        <div class="panel">
-                            <p>We work on three steps. <br>
-                                1. Consulting with the client to identify his/her needs. <br>
-                                2. We set an effective plan, time frame, and cost. We prepare resources based on the
-                                latest technology and effective process. <br>
-                                3. The work of the project is performed by a specialist.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="holder">
-                        <button class="accordion">Why we are the best?</button>
-                        <div class="panel">
-                            <p>We know the value of your time and use the latest technology. Our specialist team is committed to keeps you one step ahead of others. </p>
-                        </div>
-                    </div>
-
-                    <div class="holder">
-                        <button class="accordion">What is our goal?</button>
-                        <div class="panel">
-                            <p>The goal of Expert Arena is giving you relaxation in your busy life and allow you to use your time to grow your business. Your satisfaction is our achievement..</p>
-                        </div>
-                    </div>
-
-                    <!-- /accrodain -->
-
-                </div>
+            <!-- accrodain -->
+            <div class="holder mt-5">
+              <button class="accordion">What is our process?</button>
+              <div class="panel">
+                <p>
+                  We work on three steps. <br />
+                  1. Consulting with the client to identify his/her needs.
+                  <br />
+                  2. We set an effective plan, time frame, and cost. We prepare
+                  resources based on the latest technology and effective
+                  process. <br />
+                  3. The work of the project is performed by a specialist.
+                </p>
+              </div>
             </div>
+            <div class="holder">
+              <button class="accordion">Why we are the best?</button>
+              <div class="panel">
+                <p>
+                  We know the value of your time and use the latest technology.
+                  Our specialist team is committed to keeps you one step ahead
+                  of others.
+                </p>
+              </div>
+            </div>
+
+            <div class="holder">
+              <button class="accordion">What is our goal?</button>
+              <div class="panel">
+                <p>
+                  The goal of Expert Arena is giving you relaxation in your busy
+                  life and allow you to use your time to grow your business.
+                  Your satisfaction is our achievement..
+                </p>
+              </div>
+            </div>
+
+            <!-- /accrodain -->
+          </div>
         </div>
+      </div>
     </section>
     <!-- /faq -->
 
-
     <!-- meet out expert -->
-    <section class="meet-our-expert" style="position: relative;">
-        <div class="container-fluid">
-            <canvas id="c" height="100%" width="100%"></canvas>
-            <div class="container">
-                <!-- Swiper -->
-                <div class="swiper-container swiper-3d">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide swiper-slide-3d">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/boby-img.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ahshan Habib</h5>
-                                    <p class="text-deam">Founder &CEO</p>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-3d">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/boby-img.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ahshan Habib</h5>
-                                    <p class="text-deam">Founder &CEO</p>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-3d">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/boby-img.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ahshan Habib</h5>
-                                    <p class="text-deam">Founder &CEO</p>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-3d">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/boby-img.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ahshan Habib</h5>
-                                    <p class="text-deam">Founder &CEO</p>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-3d">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/boby-img.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ahshan Habib</h5>
-                                    <p class="text-deam">Founder &CEO</p>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-3d">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/boby-img.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ahshan Habib</h5>
-                                    <p class="text-deam">Founder &CEO</p>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-3d">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="img/boby-img.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ahshan Habib</h5>
-                                    <p class="text-deam">Founder &CEO</p>
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
-                                </div>
-                            </div>
-                        </div>
-    
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination pagination-3d"></div>
+    <section class="meet-our-expert" style="position: relative">
+      <div class="container-fluid">
+        <canvas id="c" height="100%" width="100%"></canvas>
+        <div class="container">
+          <!-- Swiper -->
+          <div class="swiper-container swiper-3d">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide-3d">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/boby-img.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ahshan Habib</h5>
+                    <p class="text-deam">Founder &CEO</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod.
+                    </p>
+                  </div>
                 </div>
+              </div>
+              <div class="swiper-slide swiper-slide-3d">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/boby-img.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ahshan Habib</h5>
+                    <p class="text-deam">Founder &CEO</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-3d">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/boby-img.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ahshan Habib</h5>
+                    <p class="text-deam">Founder &CEO</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-3d">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/boby-img.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ahshan Habib</h5>
+                    <p class="text-deam">Founder &CEO</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-3d">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/boby-img.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ahshan Habib</h5>
+                    <p class="text-deam">Founder &CEO</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-3d">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/boby-img.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ahshan Habib</h5>
+                    <p class="text-deam">Founder &CEO</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-3d">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="img/boby-img.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Ahshan Habib</h5>
+                    <p class="text-deam">Founder &CEO</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                      sed diam nonumy eirmod.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination pagination-3d"></div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- /meet out expert -->
 
-
-
-
     <!-- news letter section -->
     <section class="newsletter">
-        <!-- <div class="container-fluid"> -->
+      <!-- <div class="container-fluid"> -->
 
-        <img class="img" src="img/subscribe-bg-1.png" alt="">
-        <div class="container">
-            <div class="row news-reverce">
-                <div class="col-md-6">
-                    <h3 class="main-heading">Subscribe Our Newsletter</h3>
-                    <p class="deam-text pb-5">Lorem ipsum dolor sit amet, consetetur sadiping elitr, sed dinonumy
-                        eirmod tempor invidunt ut labore.</p>
+      <img class="img" src="img/subscribe-bg-1.png" alt="" />
+      <div class="container">
+        <div class="row news-reverce">
+          <div class="col-md-6">
+            <h3 class="main-heading">Subscribe Our Newsletter</h3>
+            <p class="deam-text pb-5">
+              Subscribe us to get our every update, discount and offers.
+            </p>
 
-                    <form action="">
-                        <div class="w-100 pb-3">
-                            <input type="email" placeholder="write your email" name="email" id="email">
-                        </div>
-                        <button class="basic-button" type="submit">Subscribe</button>
-                    </form>
-                </div>
-                <div class="col-md-6">
-                    <lottie-player src="img/subscribe1.json" background="transparent" speed="1" loop autoplay>
-                    </lottie-player>
-                </div>
-            </div>
+            <form action="">
+              <div class="w-100 pb-3">
+                <input
+                  type="email"
+                  placeholder="Enter Your Email"
+                  name="email"
+                  id="email"
+                />
+              </div>
+              <button class="basic-button" type="submit">Subscribe</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <lottie-player
+              src="img/subscribe1.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            >
+            </lottie-player>
+          </div>
         </div>
-        <!-- </div> -->
+      </div>
+      <!-- </div> -->
     </section>
     <!-- /news letter section -->
 
-
-
     <!-- footer section start -->
     <footer data-aos="fade-up" data-aos-duration="1000" class="footer">
-        <div class="container">
-            <div class="footer-1">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="set">
-                            <h2 class="footer-sec-header">Web Development</h2>
-                            <ul>
-                                <li><a href="web-development.html"><img src="img/right-arrow.png" alt="">Web Design & Development</a></li>
-                                <li><a href="web-development.html"><img src="img/right-arrow.png" alt="">E-Commerce Website Solution</a>
-                                </li>
-                                <li><a href="web-development.html"><img src="img/right-arrow.png" alt="">Wordpress Theme Development</a>
-                                </li>
-                                <li><a href="web-development.html"><img src="img/right-arrow.png" alt="">Landing Page Design </a></li>
-                                <li><a href="web-development.html"><img src="img/right-arrow.png" alt="">Email Template Design</a></li>
-                                <li><a href="web-development.html"><img src="img/right-arrow.png" alt="">Responsive Website & Bug Fixing</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="set">
-                            <h2 class="footer-sec-header">Graphics Design</h2>
-                            <ul>
-                                <li><a href="graphic-design.html"><img src="img/right-arrow.png" alt="">Photoshop Editing &
-                                        Enhancement</a></li>
-                                <li><a href="graphic-design.html"><img src="img/right-arrow.png" alt="">Image Retouching &
-                                        Manipulation</a>
-                                </li>
-                                <li><a href="graphic-design.html"><img src="img/right-arrow.png" alt="">Illustration & Vector Base
-                                        Work</a></li>
-                                <li><a href="graphic-design.html"><img src="img/right-arrow.png" alt="">Modern UX/UI Design</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="set">
-                            <h2 class="footer-sec-header">Business Support</h2>
-                            <ul>
-                                <li><a href="digital-marketing.html"><img src="img/right-arrow.png" alt="">Google Index & Digital
-                                        Marketing</a></li>
-                                <li><a href="digital-marketing.html"><img src="img/right-arrow.png" alt="">Email Marketing</a>
-                                </li>
-                                <li><a href="digital-marketing.html"><img src="img/right-arrow.png" alt="">Social Media Marketing</a></li>
-                                <li><a href="data-entry.html"><img src="img/right-arrow.png" alt="">Professional Data Entry
-                                        Services</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="set">
-                            <h2 class="footer-sec-header">Contact Us</h2>
-                            <ul>
-                                <li><a href="#"><img src="img/placeholder.png" alt="">Bagbari, Madrasha Road,
-                                        Ashulia,<br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gazipur-1700, Bangladesh</a></li>
-                                <li><a href="#"><img src="img/phone-call.png" alt="">+8801717409495</a></li>
-                                <li><a href="#"><img src="img/mail.png" alt="">ahshan.tex@gmail.com</a></li>
-                                <li><a href="#"><img src="img/internet.png" alt="">expertarena.org</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 2nd footer -->
-            <div class="footer-2 mt-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="logo">
-                                <img src="img/footer-logo-white.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="set d-flex flex-column align-items-end">
-                                <h2 class="footer-sec-header fixer001">Follow Us On Social Media</h2>
-                                <ul class="footer2-logo">
-                                    <li><a href="#"><img src="img/facebook-round.png" alt=""></a></li>
-                                    <li><a href="#"><img src="img/twittter-round.png" alt=""></a></li>
-                                    <li><a href="#"><img src="img/linkedin-roung.png" alt=""></a></li>
-                                    <li><a href="#"><img src="img/pinterest-round.png" alt=""></a></li>
-                                    <li><a href="#"><img src="img/youtube-round.png" alt=""></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="divider">
-
-            <div class="final-footer">
-                <ul id="final-footer-left">
-                    <li><a href="#">All Right Researved By @<b>Expert Arena</b></a></li>
+      <div class="container">
+        <div class="footer-1">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="set">
+                <h2 class="footer-sec-header">Web Development</h2>
+                <ul>
+                  <li>
+                    <a href="web-development.html"
+                      ><img src="img/right-arrow.png" alt="" />Web Design &
+                      Development</a
+                    >
+                  </li>
+                  <li>
+                    <a href="web-development.html"
+                      ><img src="img/right-arrow.png" alt="" />E-Commerce
+                      Website Solution</a
+                    >
+                  </li>
+                  <li>
+                    <a href="web-development.html"
+                      ><img src="img/right-arrow.png" alt="" />Wordpress Theme
+                      Development</a
+                    >
+                  </li>
+                  <li>
+                    <a href="web-development.html"
+                      ><img src="img/right-arrow.png" alt="" />Landing Page
+                      Design
+                    </a>
+                  </li>
+                  <li>
+                    <a href="web-development.html"
+                      ><img src="img/right-arrow.png" alt="" />Email Template
+                      Design</a
+                    >
+                  </li>
+                  <li>
+                    <a href="web-development.html"
+                      ><img src="img/right-arrow.png" alt="" />Responsive
+                      Website & Bug Fixing</a
+                    >
+                  </li>
                 </ul>
-                <ul id="final-footer-right" class="second-ul d-flex">
-                    <li class="px-3"><a href="">Site Map</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                </ul>
+              </div>
             </div>
+            <div class="col-md-3">
+              <div class="set">
+                <h2 class="footer-sec-header">Graphics Design</h2>
+                <ul>
+                  <li>
+                    <a href="graphic-design.html"
+                      ><img src="img/right-arrow.png" alt="" />Photoshop Editing
+                      & Enhancement</a
+                    >
+                  </li>
+                  <li>
+                    <a href="graphic-design.html"
+                      ><img src="img/right-arrow.png" alt="" />Image Retouching
+                      & Manipulation</a
+                    >
+                  </li>
+                  <li>
+                    <a href="graphic-design.html"
+                      ><img src="img/right-arrow.png" alt="" />Illustration &
+                      Vector Base Work</a
+                    >
+                  </li>
+                  <li>
+                    <a href="graphic-design.html"
+                      ><img src="img/right-arrow.png" alt="" />Modern UX/UI
+                      Design</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="set">
+                <h2 class="footer-sec-header">Business Support</h2>
+                <ul>
+                  <li>
+                    <a href="digital-marketing.html"
+                      ><img src="img/right-arrow.png" alt="" />Google Index &
+                      Digital Marketing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="digital-marketing.html"
+                      ><img src="img/right-arrow.png" alt="" />Email
+                      Marketing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="digital-marketing.html"
+                      ><img src="img/right-arrow.png" alt="" />Social Media
+                      Marketing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="data-entry.html"
+                      ><img src="img/right-arrow.png" alt="" />Professional Data
+                      Entry Services</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="set">
+                <h2 class="footer-sec-header">Contact Us</h2>
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><img src="img/placeholder.png" alt="" />Bagbari, Madrasha
+                      Road, Ashulia,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gazipur-1700,
+                      Bangladesh</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/phone-call.png" alt="" />+8801717409495</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/mail.png" alt="" />ahshan.tex@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/internet.png" alt="" />expertarena.org</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- 2nd footer -->
+        <div class="footer-2 mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="logo">
+                  <img src="img/footer-logo-white.png" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="set d-flex flex-column align-items-end">
+                  <h2 class="footer-sec-header fixer001">
+                    Follow Us On Social Media
+                  </h2>
+                  <ul class="footer2-logo">
+                    <li>
+                      <a href="#"
+                        ><img src="img/facebook-round.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="img/twittter-round.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="img/linkedin-roung.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="img/pinterest-round.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"><img src="img/youtube-round.png" alt="" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="divider" />
+
+        <div class="final-footer">
+          <ul id="final-footer-left">
+            <li>
+              <a href="#">All Right Researved By @<b>Expert Arena</b></a>
+            </li>
+          </ul>
+          <ul id="final-footer-right" class="second-ul d-flex">
+            <li class="px-3"><a href="">Site Map</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
     <!-- footer section end -->
-
-
-
-
 
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
@@ -550,60 +798,56 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- inisital aos animation -->
-    <script>
-        
-    </script>
+    <script></script>
     <!-- custom script -->
-    
+
     <script src="js/script.js"></script>
 
     <script>
-        var swiper1 = new Swiper('.swiper1', {
-            spaceBetween: 0,
-            effect: 'fade',
-            centeredSlides: true,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: '.swiper-pagination1',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
+      var swiper1 = new Swiper(".swiper1", {
+        spaceBetween: 0,
+        effect: "fade",
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination1",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
 
+      var swiper2 = new Swiper(".swiper-3d", {
+        slidesPerView: "auto",
+        spaceBetween: 0,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 5000,
+        },
 
-        var swiper2 = new Swiper('.swiper-3d', {
-            slidesPerView: 'auto',
-            spaceBetween:0,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            autoplay: {
-                delay: 5000,
-            },
-            
-            // effect: 'coverflow',
-            grabCursor: true,
-            centeredSlides: true,
-            // slidesPerView: 'auto',
-            // coverflowEffect: {
-                // rotate: 50,
-                // stretch: 0,
-                // depth: 100,
-                // modifier: 1,
-                // slideShadows: false,
-            // },
-            pagination: {
-                el: '.pagination-3d',
-            },
-        });
+        // effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        // slidesPerView: 'auto',
+        // coverflowEffect: {
+        // rotate: 50,
+        // stretch: 0,
+        // depth: 100,
+        // modifier: 1,
+        // slideShadows: false,
+        // },
+        pagination: {
+          el: ".pagination-3d",
+        },
+      });
     </script>
-</body>
-
+  </body>
 </html>
