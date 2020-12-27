@@ -1,26 +1,22 @@
-.sub-what-we-offer .what-we-offer{
-    padding-top: 100px;
+.sub-what-we-offer .what-we-offer {
+  padding-top: 100px;
 }
 
-.sub-what-we-offer .sub-top-card-image{
-    max-width: 70px;
+.sub-what-we-offer .sub-top-card-image {
+  max-width: 70px;
 }
-
-
 
 .sub-what-we-offer .top-card p {
-    text-align: left;
-    padding-bottom: 10px;
+  text-align: left;
+  padding-bottom: 10px;
 }
 
-
-.sub-what-we-offer .sub-boxes{
-    overflow: hidden!important;
+.sub-what-we-offer .sub-boxes {
+  overflow: hidden !important;
 }
 
-
-.sub-what-we-offer a{
-    cursor: pointer;
+.sub-what-we-offer a {
+  cursor: pointer;
 }
 
 /* modal pop up section */
@@ -38,14 +34,17 @@
   align-items: center;
   justify-content: center;
 }
+.sub-what-we-offer .heading {
+  width: 70%;
+}
 
-.sub-what-we-offer .modal-container .line{
-/* position: absolute; */
-/* width: 224px; */
- width: 100%;
- height: 3px;
- background: #00ADB5; 
- opacity: 1;
+.sub-what-we-offer .modal-container .line {
+  /* position: absolute; */
+  /* width: 224px; */
+  width: 100%;
+  height: 3px;
+  background: #00adb5;
+  opacity: 1;
 }
 .sub-what-we-offer .modal.open {
   visibility: visible;
@@ -56,7 +55,7 @@
   position: absolute;
   /* background: teal; */
   background-color: black;
-  opacity: .5;
+  opacity: 0.5;
   width: 100%;
   height: 100%;
 }
@@ -75,54 +74,52 @@
   height: auto;
   /* padding: 30px; */
 }
-.sub-what-we-offer .modal-container .content-text-div{
-    /* display: flex; */
-    align-items: center;
-    text-align: center;
-    z-index: 10;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.sub-what-we-offer .modal-container .content-text-div {
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-.sub-what-we-offer .modal-container ul li{
-    list-style-type: none;
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    padding-bottom: 5px;
+.sub-what-we-offer .modal-container ul li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 5px;
 }
-.sub-what-we-offer .white-img-popup{
-    position: absolute;
-
-}
-
-
-.sub-what-we-offer .modal-container .heading{
-    color: black;
+.sub-what-we-offer .white-img-popup {
+  position: absolute;
 }
 
-.sub-what-we-offer .modal-container .white-img-popup{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    /* width: 100%; */
-    max-width: 250px;
+.sub-what-we-offer .modal-container .heading {
+  color: black;
 }
 
-.sub-what-we-offer .pop-it-up{
-    position: relative;
-    padding-top: 55px;
-    padding-left: 20px;
-    z-index: 10!important;
-}
-.sub-what-we-offer .pop-it-up h5{
-    font-size: 25px;
-    font-family: var(--main-font);
-    font-weight: bold;
+.sub-what-we-offer .modal-container .white-img-popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  /* width: 100%; */
+  max-width: 250px;
 }
 
-.sub-what-we-offer .modal-container h5{
-    z-index: 2;
+.sub-what-we-offer .pop-it-up {
+  position: relative;
+  padding-top: 55px;
+  padding-left: 20px;
+  z-index: 10 !important;
+}
+.sub-what-we-offer .pop-it-up h5 {
+  font-size: 25px;
+  font-family: var(--main-font);
+  font-weight: bold;
+}
+
+.sub-what-we-offer .modal-container h5 {
+  z-index: 2;
 }
 .sub-what-we-offer .modal-close {
   position: absolute;
@@ -139,21 +136,20 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 769px) {
+  .sub-what-we-offer .pop-it-up h5 {
+    font-size: 22px;
+  }
+  .sub-what-we-offer .pop-it-up {
+    padding-top: 80px;
+  }
+  .sub-what-we-offer .modal-container .line {
+    width: 70%;
+  }
 
-@media screen and (max-width : 769px){
-    .sub-what-we-offer .pop-it-up h5{
-        font-size: 22px;
-    }
-    .sub-what-we-offer .pop-it-up{
-        padding-top: 80px;
-    }
-    .sub-what-we-offer .modal-container .line {
-        width: 70%;
-    }
-
-    .sub-what-we-offer .modal-container ul li{
-        font-size: 12px;
-    } 
+  .sub-what-we-offer .modal-container ul li {
+    font-size: 12px;
+  }
 }
 
 /* modal popup section */

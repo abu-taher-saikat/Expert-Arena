@@ -1,605 +1,824 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Entry</title>
+    <!-- fontawesome will remover letter -->
+    <script
+      src="https://kit.fontawesome.com/e264635c4f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- swiper js css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- aos animation css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- custom css -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="secondpage.css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Data Entry</title>
-        <!-- fontawesome will remover letter -->
-        <script src="https://kit.fontawesome.com/e264635c4f.js" crossorigin="anonymous"></script>
-        <!-- swiper js css -->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <!-- bootstrap cdn -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-            <!-- aos animation css-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <!-- custom css -->
-        <!-- <link rel="stylesheet" href="style.css"> -->
-        <link rel="stylesheet" href="secondpage.css">
-    </head>
-
-    <body>
+  <body>
     <!-- header start -->
     <header class="header">
-        <div class="container-fluid">
-            <div class="top-header d-none d-md-block">
-                <div class="container">
-                    <div class="d-flex justify-content-between">
-                        <div class="top-header-left">
-                            <ul class="d-flex">
-                                <li><span><img src="img/whatsapp.png" alt=""></span>+880 179009 2627</li>
-                                <li><span><img src="img/email.png" alt=""></span>expertarena@gmail.com</li>
-                            </ul>
-                        </div>
-                        <div class="top-header-right">
-                            <ul class="d-flex align-items-center">
-                                <li class="align-self-center">
-                                    <a class="t-head-logo upwork" href="#">
-                                        <img src="img/upwork.png" alt="Upwork link">
-                                    </a>
-                                </li>
-                                <li class="align-self-center">
-                                    <a class="t-head-logo freelancer" href="#">
-                                        <img src="img/freelancer.png" alt="Freelancer link">
-                                    </a></li>
-                                <li class="align-self-center">
-                                    <a class="t-head-logo fiverr" href="#">
-                                        <img src="img/fiverr.png" alt="Fiverr Link">
-                                    </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div class="container-fluid">
+        <div class="top-header d-none d-md-block">
+          <div class="container">
+            <div class="d-flex justify-content-between">
+              <div class="top-header-left">
+                <ul class="d-flex">
+                  <li>
+                    <span><img src="img/whatsapp.png" alt="" /></span>+880
+                    179009 2627
+                  </li>
+                  <li>
+                    <span><img src="img/email.png" alt="" /></span
+                    >expertarena@gmail.com
+                  </li>
+                </ul>
+              </div>
+              <div class="top-header-right">
+                <ul class="d-flex align-items-center">
+                  <li class="align-self-center">
+                    <a class="t-head-logo upwork" href="#">
+                      <img src="img/upwork.png" alt="Upwork link" />
+                    </a>
+                  </li>
+                  <li class="align-self-center">
+                    <a class="t-head-logo freelancer" href="#">
+                      <img src="img/freelancer.png" alt="Freelancer link" />
+                    </a>
+                  </li>
+                  <li class="align-self-center">
+                    <a class="t-head-logo fiverr" href="#">
+                      <img src="img/fiverr.png" alt="Fiverr Link" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <!-- /top header -->
-
-
-            <!-- main header -->
-
-            <!-- /main header -->
-            <main>
-                <div class="container">
-                    <div class="main-header d-flex justify-content-between flex-wrap">
-                        <div class="logo">
-                             <a href="index.html"><img src="img/main-logo-header.png" alt=""></a>
-                        </div>
-
-                        <button class="hamburger" id="hamburger">
-                            <i class="fas fa-bars"></i>
-                        </button>
-                        <div class="nav-section" id="nav-section">
-                            <ul>
-                                <li class="active-class"><a href="index.html">Home</a></li>
-                                <li class="dropdown active-class">
-                                    <a class="dropbtn" href="#">Service</a>
-                                    <div class="dropdown-content active">
-                                        <a href="web-development.html">Web Design</a>
-                                        <a href="graphic-design.html">Graphic Design</a>
-                                        <a href="digital-marketing.html">Email Marketing</a>
-                                        <a href="data-entry.html">Data Entry</a>
-                                    </div>
-                                </li>
-                                <li class="active-class "><a href="about-us.html">About</a></li>
-
-                                <li class="active-class "><a href="contact-us.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </main>
-            <!-- main section end -->
+          </div>
         </div>
+        <!-- /top header -->
 
+        <!-- main header -->
+
+        <!-- /main header -->
+        <main>
+          <div class="container">
+            <div class="main-header d-flex justify-content-between flex-wrap">
+              <div class="logo">
+                <a href="index.html"
+                  ><img src="img/main-logo-header.png" alt=""
+                /></a>
+              </div>
+
+              <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="nav-section" id="nav-section">
+                <ul>
+                  <li class="active-class"><a href="index.html">Home</a></li>
+                  <li class="dropdown active-class">
+                    <a class="dropbtn" href="#">Service</a>
+                    <div class="dropdown-content active">
+                      <a href="web-development.html">Web Design</a>
+                      <a href="graphic-design.html">Graphic Design</a>
+                      <a href="digital-marketing.html">Email Marketing</a>
+                      <a href="data-entry.html">Data Entry</a>
+                    </div>
+                  </li>
+                  <li class="active-class">
+                    <a href="about-us.html">About</a>
+                  </li>
+
+                  <li class="active-class">
+                    <a href="contact-us.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </main>
+        <!-- main section end -->
+      </div>
     </header>
     <!-- header end -->
 
-
-        <!-- hero section -->
-        <section class="hero-section">
-            <div class="container-fluid">
-                <div class="hero">
-                    <img src="img/webdev/header bg-main.png" alt="" class="hero-bg-img">
-                    <div class="container">
-                        <div class="row">
-                            <div data-aos="fade-right" data-aos-duration="1000" class="col-md-6">
-                                <h1 class="sub-main-heading pt-3 pb-4">Data Entry
-                                    <br> Professional Service
-                                </h1>
-                                <p class="small-paragraphs pb-3">We focus on not only providing beautiful design,
-                                    but on layouts that give your clients the information they're looking for and make
-                                    the
-                                    important first impression.</p>
-
-                                <a href="#" class="sub-basic-button">See Details</a>
-                            </div>
-                            <div class="col-md-6">
-                                <lottie-player class="sub-header-player"
-                                    src="https://assets10.lottiefiles.com/packages/lf20_yjkyGT.json"
-                                    background="transparent" speed="2" loop autoplay></lottie-player>
-                            </div>
-                        </div>
-                        <div class="hero-img">
-                            <img class="d-block" src="img/webdev/bottom-dot.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- hero section -->
-
-        <!-- what we offer section -->
-        <section class="sub-what-we-offer">
-            <div class="container-fluid">
-                <div class="container what-we-offer">
-                    <h4 class="small-intro">What we offer</h4>
-                    <h1 class="main-headding text-center">Creative services that matter</h1>
-                    <p class="sub-deam-text text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                        dinonumy
-                        eirmod tempor invidunt ut labore et dolore magn.</p>
-                </div>
-
-                <div class="sub-boxes">
-                    <div class="container">
-                        <div class="row">
-                            <!-- 1st -->
-                            <div class="col-md-4">
-                                <div class="sub-top-card">
-                                    <img class="sub-top-card-image" src="img/dataentry/basic-data-entry.png" alt="">
-                                    <div>
-
-                                        <h4 class="sub-card-heading py-3">Basic<br>
-                                            Data Entry & Mining</h4>
-                                        <p class="sub-deam-text">Lorem ipsum dolor sit amet, consetet sadipscing elitr,
-                                            sed
-                                            dinonumy
-                                            eirmod tempor invidunt.</p>
-                                    </div>
-                                    <div class="mt-3 mb-2">
-                                        <!-- model trigger button -->
-                                        <a class="sub-show-button" data-modal="modal-one">Read More</a>
-                                        <!--  modal section-->
-                                        <div class="modal" id="modal-one">
-                                            <div class="modal-bg modal-exit"></div>
-                                            <div class="modal-container d-flex">
-                                                <div class="row">
-                                                    <div class="col-sm-4 popup-left">
-                                                        <img class="white-img-popup" src="img/designed-white-pop.png"
-                                                            alt="">
-                                                        <div class="pop-it-up">
-                                                            <h5 class="heading">Basic Data Entry & Mining</h5>
-                                                            <hr class="line">
-                                                            <h6 style="color: #A3A3A3;">Our Services</h6>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-8 content-text-div">
-                                                        <!-- <div class="container"> -->
-                                                        <ul>
-                                                            <li><img src="img/round-logo.png" alt=""></li>
-                                                            <li>PSD To HTML </li>
-                                                            <li>Any Bug Fixing</li>
-                                                            <li>Theme Development</li>
-                                                            <li>Business Website Design & Development</li>
-                                                            <li>Personal Website Design & Development</li>
-                                                            <li>eCommerce Website Design & Development</li>
-                                                            <li>Newspaper Website Design & Development</li>
-                                                            <li>Agency Website Design & Development</li>
-                                                        </ul>
-                                                        <!-- </div> -->
-                                                    </div>
-                                                </div>
-                                                <button class="modal-close modal-exit">X</button>
-                                            </div>
-                                        </div>
-                                        <!--  modal section -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- 2nd -->
-                            <div class="col-md-4">
-                                <div class="sub-top-card">
-                                    <img class="sub-top-card-image" src="img/dataentry/internet-research.png" alt="">
-                                    <div>
-
-                                        <h4 class="sub-card-heading py-3"> Internet<br>
-                                            Research</h4>
-                                        <p class="sub-deam-text">Lorem ipsum dolor sit amet, consetet sadipscing elitr,
-                                            sed
-                                            dinonumy
-                                            eirmod tempor invidunt.</p>
-                                    </div>
-                                    <div class="mt-3 mb-2">
-                                        <a class="sub-show-button" data-modal="modal-two" href="#">Read More</a>
-                                        <!--  modal section-->
-                                        <div class="modal" id="modal-two">
-                                            <div class="modal-bg modal-exit"></div>
-                                            <div class="modal-container d-flex">
-                                                <div class="row">
-                                                    <div class="col-sm-4 popup-left">
-                                                        <img class="white-img-popup" src="img/designed-white-pop.png"
-                                                            alt="">
-                                                        <div class="pop-it-up">
-                                                            <h5 class="heading">Internet Research</h5>
-                                                            <hr class="line">
-                                                            <h6 style="color: #A3A3A3;">Our Services</h6>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-8 content-text-div">
-                                                        <!-- <div class="container"> -->
-                                                        <ul>
-                                                            <li><img src="img/round-logo.png" alt=""></li>
-                                                            <li>PSD To HTML </li>
-                                                            <li>Any Bug Fixing</li>
-                                                            <li>Theme Development</li>
-                                                            <li>Business Website Design & Development</li>
-                                                            <li>Personal Website Design & Development</li>
-                                                            <li>eCommerce Website Design & Development</li>
-                                                            <li>Newspaper Website Design & Development</li>
-                                                            <li>Agency Website Design & Development</li>
-                                                        </ul>
-                                                        <!-- </div> -->
-                                                    </div>
-                                                </div>
-                                                <button class="modal-close modal-exit">X</button>
-                                            </div>
-                                        </div>
-                                        <!--  modal section -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- 3rd -->
-                            <div class="col-md-4">
-                                <div class="sub-top-card">
-                                    <img class="sub-top-card-image" src="img/dataentry/ecomerse-data-entry.png" alt="">
-                                    <div>
-
-                                        <h4 class="sub-card-heading py-3"> eCommerce <br>
-                                            Data Entry & Listing</h4>
-                                        <p class="sub-deam-text">Lorem ipsum dolor sit amet, consetet sadipscing elitr,
-                                            sed
-                                            dinonumy
-                                            eirmod tempor invidunt.</p>
-                                    </div>
-                                    <div class="mt-3 mb-2">
-                                        <a class="sub-show-button" data-modal="modal-three" href="#">Read More</a>
-                                        <!--  modal section-->
-                                        <div class="modal" id="modal-three">
-                                            <div class="modal-bg modal-exit"></div>
-                                            <div class="modal-container d-flex">
-                                                <div class="row">
-                                                    <div class="col-sm-4 popup-left">
-                                                        <img class="white-img-popup" src="img/designed-white-pop.png"
-                                                            alt="">
-                                                        <div class="pop-it-up">
-                                                            <h5 class="heading"> eCommerce Data Entry & Listing</h5>
-                                                            <hr class="line">
-                                                            <h6 style="color: #A3A3A3;">Our Services</h6>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-8 content-text-div">
-                                                        <!-- <div class="container"> -->
-                                                        <ul>
-                                                            <li><img src="img/round-logo.png" alt=""></li>
-                                                            <li>PSD To HTML </li>
-                                                            <li>Any Bug Fixing</li>
-                                                            <li>Theme Development</li>
-                                                            <li>Business Website Design & Development</li>
-                                                            <li>Personal Website Design & Development</li>
-                                                            <li>eCommerce Website Design & Development</li>
-                                                            <li>Newspaper Website Design & Development</li>
-                                                            <li>Agency Website Design & Development</li>
-                                                        </ul>
-                                                        <!-- </div> -->
-                                                    </div>
-                                                </div>
-                                                <button class="modal-close modal-exit">X</button>
-                                            </div>
-                                        </div>
-                                        <!--  modal section -->
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- what we offer section -->
-
-
-        <!-- Technologies section start -->
-        <section class="container-fluid">
-            <!-- first round -->
-            <div class="technologies">
-                <div class="container">
-                    <div class="row">
-                        <!-- right div -->
-                        <div class="col-md-12">
-                            <div style="padding-left: 20px;">
-                                <h4 class="small-intro">Technologies</h4>
-                                <h1 class="main-headding text-center pb-3">Creative services that metter
-
-                                </h1>
-                                <p class="sub-deam-text text-center">Lorem ipsum dolor sit amet, consetetur sadipscing
-                                    elitr, sed
-                                    dinonumy
-                                    eirmod tempor invidunt ut labore et dolore magn.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in" data-aos-duration="2000" class="container pt-5">
-                    <div class="data-entry-logos">
-                        <img src="img/dataentry/microsoft-word-logo.png" alt="">
-                        <img src="img/dataentry/excel-logo.png" alt="">
-                        <img src="img/dataentry/powerpoint-logo.png" alt="">
-                        <img src="img/dataentry/pdf-logo.png" alt="">
-                        <img src="img/dataentry/notepad-logo.png" alt="">
-                        <img src="img/dataentry/google-docs-logo.png" alt="">
-                        <img src="img/dataentry/google-spreadsheet-logo.png" alt="">
-                        <img src="img/dataentry/google-drive-logo.png" alt="">
-                        <img src="img/dataentry/dropbox-logo.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <!-- 2nd round -->
-            <div class="technologies">
-                <div class="container">
-                    <div class="row">
-                        <!-- right div -->
-                        <div class="col-md-12">
-                            <div style="padding-left: 20px;">
-
-                                <h1 class="main-headding text-center pb-3">Creative services that metter
-
-                                </h1>
-                                <p class="sub-deam-text text-center">Lorem ipsum dolor sit amet, consetetur sadipscing
-                                    elitr, sed
-                                    dinonumy
-                                    eirmod tempor invidunt ut labore et dolore magn.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" data-aos-duration="1000" class="container pt-5">
-                    <div class="row data-entry-service-logos">
-                        <div class="col-md-3 col-sm-6"><img class="img-fluid"
-                                src="img/dataentry/amazon-section-logo.png" alt=""></div>
-                        <div class="col-md-3 col-sm-6"><img class="img-fluid" src="img/dataentry/ebay-section-logo.png"
-                                alt=""></div>
-                        <div class="col-md-3 col-sm-6"><img class="img-fluid"
-                                src="img/dataentry/shopify-section-logo.png" alt=""></div>
-                        <div class="col-md-3 col-sm-6"><img class="img-fluid"
-                                src="img/dataentry/woocommerce-section-logo.png" alt=""></div>
-                        <!-- </div>
-                    <div class="row"> -->
-                        <div class="col-md-3 col-sm-6"><img class="img-fluid" src="img/dataentry/big-commerce.png"
-                                alt=""></div>
-                        <div class="col-md-3 col-sm-6"><img class="img-fluid"
-                                src="img/dataentry/opencart-section-logo.png" alt=""></div>
-                        <div class="col-md-3 col-sm-6"><img class="img-fluid" src="img/dataentry/prestashop-logo.png"
-                                alt=""></div>
-                        <div class="col-md-3 col-sm-6"><img class="img-fluid"
-                                src="img/dataentry/zen-cart-section-logo.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Technologies section end -->
-
-        <!-- form section -->
-        <section class="form-section">
-            <div class="container-fluid pad-option">
-                <h2 class="text-center text-white mb-5">Lets Connect & Discuss Your Needs</h2>
-                <div class="container main-form">
-                    <form data-aos="fade-up" data-aos-duration="3000">
-                        <div class="row">
-                            <div class="col form-group">
-                                <input type="text" class="form-control" placeholder="First name">
-                            </div>
-                            <div class="col form-group">
-                                <input type="text" class="form-control" placeholder="Last name">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="" placeholder="Enter email">
-                        </div>
-                        <div class="form-group">
-                            <input type="number" class="form-control my-3" id="" placeholder="Enter Your Phone Number">
-                        </div>
-                        <div class="form-group">
-                            <textarea style="width: 100%; height: 150px;" name="message"
-                                placeholder="Write your requirements....."></textarea>
-                        </div>
-
-                        <div class="form-group">
-                            <button id="book-now-button" type="submit" class="sub-form-button mt-2">Book Now</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <!-- form section -->
-
-        <!-- our team support section -->
-        <section class="sub-team-support">
-            <div class="container">
-                <h1 class="text-center">Our Team Here To Support You <br>
-                    24/7 Quick Response
+    <!-- hero section -->
+    <section class="hero-section">
+      <div class="container-fluid">
+        <div class="hero">
+          <img src="img/webdev/header bg-main.png" alt="" class="hero-bg-img" />
+          <div class="container">
+            <div class="row">
+              <div
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                class="col-md-6"
+              >
+                <h1 class="sub-main-heading pt-3 pb-4">
+                  Data Entry <br />
+                  Professional Service
                 </h1>
+                <p class="small-paragraphs pb-3">
+                  We focus on not only providing beautiful design, but on
+                  layouts that give your clients the information they're looking
+                  for and make the important first impression.
+                </p>
+
+                <a href="#" class="sub-basic-button">See Details</a>
+              </div>
+              <div class="col-md-6">
+                <lottie-player
+                  class="sub-header-player"
+                  src="https://assets10.lottiefiles.com/packages/lf20_yjkyGT.json"
+                  background="transparent"
+                  speed="2"
+                  loop
+                  autoplay
+                ></lottie-player>
+              </div>
             </div>
-        </section>
-        <!-- our team support section end -->
+            <div class="hero-img">
+              <img class="d-block" src="img/webdev/bottom-dot.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section -->
 
+    <!-- what we offer section -->
+    <section class="sub-what-we-offer">
+      <div class="container-fluid">
+        <div class="container what-we-offer">
+          <h4 class="small-intro">What we offer</h4>
+          <h1 class="main-headding text-center">
+            Creative services that matter
+          </h1>
+          <p class="sub-deam-text text-center">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+            dinonumy eirmod tempor invidunt ut labore et dolore magn.
+          </p>
+        </div>
 
+        <div class="sub-boxes">
+          <div class="container">
+            <div class="row">
+              <!-- 1st -->
+              <div class="col-md-4">
+                <div class="sub-top-card">
+                  <img
+                    class="sub-top-card-image"
+                    src="img/dataentry/basic-data-entry.png"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="sub-card-heading py-3">
+                      Basic<br />
+                      Data Entry & Mining
+                    </h4>
+                    <p class="sub-deam-text">
+                      Lorem ipsum dolor sit amet, consetet sadipscing elitr, sed
+                      dinonumy eirmod tempor invidunt.
+                    </p>
+                  </div>
+                  <div class="mt-3 mb-2">
+                    <!-- model trigger button -->
+                    <a class="sub-show-button" data-modal="modal-one"
+                      >Read More</a
+                    >
+                    <!--  modal section-->
+                    <div class="modal" id="modal-one">
+                      <div class="modal-bg modal-exit"></div>
+                      <div class="modal-container d-flex">
+                        <div class="row">
+                          <div class="col-sm-4 popup-left">
+                            <img
+                              class="white-img-popup"
+                              src="img/designed-white-pop.png"
+                              alt=""
+                            />
+                            <div class="pop-it-up">
+                              <h5 class="heading">Basic Data Entry & Mining</h5>
+                              <hr class="line" />
+                              <h6 style="color: #a3a3a3">Our Services</h6>
+                            </div>
+                          </div>
+                          <div class="col-sm-8 content-text-div">
+                            <!-- <div class="container"> -->
+                            <ul>
+                              <li><img src="img/round-logo.png" alt="" /></li>
+                              <li>PDF Conversion</li>
+                              <li>Typing</li>
+                              <li>Copy Paste</li>
+                              <li>Data Mining</li>
+                              <li>Data Scraping</li>
+                              <li>Data Manipulation</li>
+                              <li>Data Cleaning</li>
+                              <li>MS Excel/Word Data Entry</li>
+                              <li>Real Estate Data Entry</li>
+                              <li>Website data entry</li>
+                            </ul>
+                            <!-- </div> -->
+                          </div>
+                        </div>
+                        <button class="modal-close modal-exit">X</button>
+                      </div>
+                    </div>
+                    <!--  modal section -->
+                  </div>
+                </div>
+              </div>
+              <!-- 2nd -->
+              <div class="col-md-4">
+                <div class="sub-top-card">
+                  <img
+                    class="sub-top-card-image"
+                    src="img/dataentry/internet-research.png"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="sub-card-heading py-3">
+                      Internet<br />
+                      Research
+                    </h4>
+                    <p class="sub-deam-text">
+                      Lorem ipsum dolor sit amet, consetet sadipscing elitr, sed
+                      dinonumy eirmod tempor invidunt.
+                    </p>
+                  </div>
+                  <div class="mt-3 mb-2">
+                    <a class="sub-show-button" data-modal="modal-two" href="#"
+                      >Read More</a
+                    >
+                    <!--  modal section-->
+                    <div class="modal" id="modal-two">
+                      <div class="modal-bg modal-exit"></div>
+                      <div class="modal-container d-flex">
+                        <div class="row">
+                          <div class="col-sm-4 popup-left">
+                            <img
+                              class="white-img-popup"
+                              src="img/designed-white-pop.png"
+                              alt=""
+                            />
+                            <div class="pop-it-up">
+                              <h5 class="heading">Internet Research</h5>
+                              <hr class="line" />
+                              <h6 style="color: #a3a3a3">Our Services</h6>
+                            </div>
+                          </div>
+                          <div class="col-sm-8 content-text-div">
+                            <!-- <div class="container"> -->
+                            <ul>
+                              <li><img src="img/round-logo.png" alt="" /></li>
+                              <li>Online research on any product or service</li>
+                              <li>Information research on any topic</li>
+                              <li>Fine-tuning your research information</li>
+                              <li>Market research</li>
+                              <li>Product Research</li>
+                              <li>Contact Information Research</li>
+                              <li>Property Research</li>
+                            </ul>
+                            <!-- </div> -->
+                          </div>
+                        </div>
+                        <button class="modal-close modal-exit">X</button>
+                      </div>
+                    </div>
+                    <!--  modal section -->
+                  </div>
+                </div>
+              </div>
+              <!-- 3rd -->
+              <div class="col-md-4">
+                <div class="sub-top-card">
+                  <img
+                    class="sub-top-card-image"
+                    src="img/dataentry/ecomerse-data-entry.png"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="sub-card-heading py-3">
+                      eCommerce <br />
+                      Data Entry & Listing
+                    </h4>
+                    <p class="sub-deam-text">
+                      Lorem ipsum dolor sit amet, consetet sadipscing elitr, sed
+                      dinonumy eirmod tempor invidunt.
+                    </p>
+                  </div>
+                  <div class="mt-3 mb-2">
+                    <a class="sub-show-button" data-modal="modal-three" href="#"
+                      >Read More</a
+                    >
+                    <!--  modal section-->
+                    <div class="modal" id="modal-three">
+                      <div class="modal-bg modal-exit"></div>
+                      <div class="modal-container d-flex">
+                        <div class="row">
+                          <div class="col-sm-4 popup-left">
+                            <img
+                              class="white-img-popup"
+                              src="img/designed-white-pop.png"
+                              alt=""
+                            />
+                            <div class="pop-it-up">
+                              <h5 class="heading">
+                                eCommerce Data Entry & Listing
+                              </h5>
+                              <hr class="line" />
+                              <h6 style="color: #a3a3a3">Our Services</h6>
+                            </div>
+                          </div>
+                          <div class="col-sm-8 content-text-div">
+                            <!-- <div class="container"> -->
+                            <ul>
+                              <li><img src="img/round-logo.png" alt="" /></li>
+                              <li>Product Listing (Manual)</li>
+                              <li>Product Listing (Bulk)</li>
+                              <li>Product Transfer</li>
+                              <li>Product Information Scraping</li>
+                              <li>Order Processing</li>
+                              <li>Inventory Management</li>
+                              <li>Product Categorization</li>
+                              <li>Image Preparation</li>
+                              <li>Store Management</li>
+                              <li>Customer Service</li>
+                            </ul>
+                            <!-- </div> -->
+                          </div>
+                        </div>
+                        <button class="modal-close modal-exit">X</button>
+                      </div>
+                    </div>
+                    <!--  modal section -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- what we offer section -->
 
+    <!-- Technologies section start -->
+    <section class="container-fluid">
+      <!-- first round -->
+      <div class="technologies">
+        <div class="container">
+          <div class="row">
+            <!-- right div -->
+            <div class="col-md-12">
+              <div style="padding-left: 20px">
+                <h4 class="small-intro">Technologies</h4>
+                <h1 class="main-headding text-center pb-3">
+                  Creative services that metter
+                </h1>
+                <p class="sub-deam-text text-center">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  dinonumy eirmod tempor invidunt ut labore et dolore magn.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="2000" class="container pt-5">
+          <div class="data-entry-logos">
+            <img src="img/dataentry/microsoft-word-logo.png" alt="" />
+            <img src="img/dataentry/excel-logo.png" alt="" />
+            <img src="img/dataentry/powerpoint-logo.png" alt="" />
+            <img src="img/dataentry/pdf-logo.png" alt="" />
+            <img src="img/dataentry/notepad-logo.png" alt="" />
+            <img src="img/dataentry/google-docs-logo.png" alt="" />
+            <img src="img/dataentry/google-spreadsheet-logo.png" alt="" />
+            <img src="img/dataentry/google-drive-logo.png" alt="" />
+            <img src="img/dataentry/dropbox-logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- 2nd round -->
+      <div class="technologies">
+        <div class="container">
+          <div class="row">
+            <!-- right div -->
+            <div class="col-md-12">
+              <div style="padding-left: 20px">
+                <h1 class="main-headding text-center pb-3">
+                  Creative services that metter
+                </h1>
+                <p class="sub-deam-text text-center">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  dinonumy eirmod tempor invidunt ut labore et dolore magn.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="container pt-5">
+          <div class="row data-entry-service-logos">
+            <div class="col-md-3 col-sm-6">
+              <img
+                class="img-fluid"
+                src="img/dataentry/amazon-section-logo.png"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <img
+                class="img-fluid"
+                src="img/dataentry/ebay-section-logo.png"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <img
+                class="img-fluid"
+                src="img/dataentry/shopify-section-logo.png"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <img
+                class="img-fluid"
+                src="img/dataentry/woocommerce-section-logo.png"
+                alt=""
+              />
+            </div>
+            <!-- </div>
+                    <div class="row"> -->
+            <div class="col-md-3 col-sm-6">
+              <img
+                class="img-fluid"
+                src="img/dataentry/big-commerce.png"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <img
+                class="img-fluid"
+                src="img/dataentry/opencart-section-logo.png"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <img
+                class="img-fluid"
+                src="img/dataentry/prestashop-logo.png"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <img
+                class="img-fluid"
+                src="img/dataentry/zen-cart-section-logo.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Technologies section end -->
 
+    <!-- form section -->
+    <section class="form-section">
+      <div class="container-fluid pad-option">
+        <h2 class="text-center text-white mb-5">
+          Lets Connect & Discuss Your Needs
+        </h2>
+        <div class="container main-form">
+          <form data-aos="fade-up" data-aos-duration="3000">
+            <div class="row">
+              <div class="col form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="First name"
+                />
+              </div>
+              <div class="col form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Last name"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id=""
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="number"
+                class="form-control my-3"
+                id=""
+                placeholder="Enter Your Phone Number"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                style="width: 100%; height: 150px"
+                name="message"
+                placeholder="Write your requirements....."
+              ></textarea>
+            </div>
 
+            <div class="form-group">
+              <button
+                id="book-now-button"
+                type="submit"
+                class="sub-form-button mt-2"
+              >
+                Book Now
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- form section -->
 
+    <!-- our team support section -->
+    <section class="sub-team-support">
+      <div class="container">
+        <h1 class="text-center">
+          Our Team Here To Support You <br />
+          24/7 Quick Response
+        </h1>
+      </div>
+    </section>
+    <!-- our team support section end -->
 
     <!-- footer section start -->
     <footer data-aos="fade-up" data-aos-duration="1000" class="footer">
-        <div class="container">
-            <div class="footer-1">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="set">
-                            <h2 class="footer-sec-header">Web Development</h2>
-                            <ul>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Web Design & Development</a></li>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">E-Commerce Website Solution</a>
-                                </li>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Wordpress Theme Development</a>
-                                </li>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Landing Page Design </a></li>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Email Template Design</a></li>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Responsive Website & Bug Fixing</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="set">
-                            <h2 class="footer-sec-header">Graphics Design</h2>
-                            <ul>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Photoshop Editing &
-                                        Enhancement</a></li>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Image Retouching &
-                                        Manipulation</a>
-                                </li>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Illustration & Vector Base
-                                        Work</a></li>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Modern UX/UI Design</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="set">
-                            <h2 class="footer-sec-header">Business Support</h2>
-                            <ul>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Google Index & Digital
-                                        Marketing</a></li>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Email Marketing</a>
-                                </li>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Social Media Marketing</a></li>
-                                <li><a href="#"><img src="img/right-arrow.png" alt="">Professional Data Entry
-                                        Services</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="set">
-                            <h2 class="footer-sec-header">Contact Us</h2>
-                            <ul>
-                                <li><a href="#"><img src="img/placeholder.png" alt="">Bagbari, Madrasha Road,
-                                        Ashulia,<br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gazipur-1700, Bangladesh</a></li>
-                                <li><a href="#"><img src="img/phone-call.png" alt="">+8801717409495</a></li>
-                                <li><a href="#"><img src="img/mail.png" alt="">ahshan.tex@gmail.com</a></li>
-                                <li><a href="#"><img src="img/internet.png" alt="">Web Development Melbourne</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 2nd footer -->
-            <div class="footer-2 mt-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="logo">
-                                <img src="img/footer-logo-white.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="set d-flex flex-column align-items-end">
-                                <h2 class="footer-sec-header fixer001">Follow Us On Social Media</h2>
-                                <ul class="footer2-logo">
-                                    <li><a href="#"><img src="img/facebook-round.png" alt=""></a></li>
-                                    <li><a href="#"><img src="img/twittter-round.png" alt=""></a></li>
-                                    <li><a href="#"><img src="img/linkedin-roung.png" alt=""></a></li>
-                                    <li><a href="#"><img src="img/pinterest-round.png" alt=""></a></li>
-                                    <li><a href="#"><img src="img/youtube-round.png" alt=""></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="divider">
-
-            <div class="final-footer">
-                <ul id="final-footer-left">
-                    <li><a href="#">All Right Researved By @<b>Expert Arena</b></a></li>
+      <div class="container">
+        <div class="footer-1">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="set">
+                <h2 class="footer-sec-header">Web Development</h2>
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Web Design &
+                      Development</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />E-Commerce
+                      Website Solution</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Wordpress Theme
+                      Development</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Landing Page
+                      Design
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Email Template
+                      Design</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Responsive
+                      Website & Bug Fixing</a
+                    >
+                  </li>
                 </ul>
-                <ul id="final-footer-right" class="second-ul d-flex">
-                    <li class="px-3"><a href="">Site Map</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                </ul>
+              </div>
             </div>
+            <div class="col-md-3">
+              <div class="set">
+                <h2 class="footer-sec-header">Graphics Design</h2>
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Photoshop Editing
+                      & Enhancement</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Image Retouching
+                      & Manipulation</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Illustration &
+                      Vector Base Work</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Modern UX/UI
+                      Design</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="set">
+                <h2 class="footer-sec-header">Business Support</h2>
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Google Index &
+                      Digital Marketing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Email
+                      Marketing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Social Media
+                      Marketing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/right-arrow.png" alt="" />Professional Data
+                      Entry Services</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="set">
+                <h2 class="footer-sec-header">Contact Us</h2>
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><img src="img/placeholder.png" alt="" />Bagbari, Madrasha
+                      Road, Ashulia,<br />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gazipur-1700,
+                      Bangladesh</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/phone-call.png" alt="" />+8801717409495</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/mail.png" alt="" />ahshan.tex@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/internet.png" alt="" />Web Development
+                      Melbourne</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- 2nd footer -->
+        <div class="footer-2 mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="logo">
+                  <img src="img/footer-logo-white.png" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="set d-flex flex-column align-items-end">
+                  <h2 class="footer-sec-header fixer001">
+                    Follow Us On Social Media
+                  </h2>
+                  <ul class="footer2-logo">
+                    <li>
+                      <a href="#"
+                        ><img src="img/facebook-round.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="img/twittter-round.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="img/linkedin-roung.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="img/pinterest-round.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"><img src="img/youtube-round.png" alt="" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="divider" />
+
+        <div class="final-footer">
+          <ul id="final-footer-left">
+            <li>
+              <a href="#">All Right Researved By @<b>Expert Arena</b></a>
+            </li>
+          </ul>
+          <ul id="final-footer-right" class="second-ul d-flex">
+            <li class="px-3"><a href="">Site Map</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
     <!-- footer section end -->
 
-
-
-
-
-        <!-- bootstrap js -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
-        <!-- swiper js  -->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!-- lootie animation -->
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <!-- aos animation js -->
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+    <!-- swiper js  -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- lootie animation -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- aos animation js -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <!-- custom script -->
-        <script src="js/script.js"></script>
+    <!-- custom script -->
+    <script src="js/script.js"></script>
 
-        <script>
-            var swiper1 = new Swiper('.swiper1', {
-                spaceBetween: 0,
-                effect: 'fade',
-                centeredSlides: true,
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
-                },
-                pagination: {
-                    el: '.swiper-pagination1',
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
+    <script>
+      var swiper1 = new Swiper(".swiper1", {
+        spaceBetween: 0,
+        effect: "fade",
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination1",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
 
-
-            var swiper2 = new Swiper('.swiper-3d', {
-                autoplay: {
-                    delay: 6000,
-                },
-                effect: 'coverflow',
-                grabCursor: true,
-                centeredSlides: false,
-                slidesPerView: 'auto',
-                coverflowEffect: {
-                    rotate: 50,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows: false,
-                },
-                pagination: {
-                    el: '.pagination-3d'
-                },
-            });
-        </script>
-    </body>
-
-    </html>
+      var swiper2 = new Swiper(".swiper-3d", {
+        autoplay: {
+          delay: 6000,
+        },
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: false,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        },
+        pagination: {
+          el: ".pagination-3d",
+        },
+      });
+    </script>
+  </body>
+</html>
