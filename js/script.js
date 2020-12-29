@@ -95,3 +95,19 @@ function initMap() {
 // aos
 AOS.init();
 
+// i will fix(clear this later)
+// make a div a ..clickable content.
+document.getElementById('web-development').addEventListener('click', function() {
+  location.href = 'web-development.html'
+}, false);
+document.getElementById('digital-marketing').addEventListener('click', function() {
+  location.href = 'digital-marketing.html'
+}, false);
+
+document.getElementById('graphic-design').addEventListener('click', function() {
+  location.href = 'graphic-design.html'
+}, false);
+
+document.getElementById('data-entry').addEventListener('click', function() {
+  location.href = 'data-entry.html'
+}, false);
