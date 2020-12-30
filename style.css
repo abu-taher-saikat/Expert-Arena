@@ -1,22 +1,24 @@
 /* Global css */
-@import './assets/css/_global.css';
+@import "./assets/css/_global.css";
 /* _variable.css files */
-@import './assets/css/_variables.css';
+@import "./assets/css/_variables.css";
 /* modified css */
-@import './assets/css/_modify.css';
+@import "./assets/css/_modify.css";
 /* header css */
-@import './css/header.css';
+@import "./css/header.css";
 /* hero css */
-@import './css/hero.css';
+@import "./css/hero.css";
 /* what we do */
-@import './css/what-we-do.css';
+@import "./css/what-we-do.css";
 /* about us */
-@import './css/about-us.css';
+@import "./css/about-us.css";
 /* faq */
-@import './css/faq.css';
+@import "./css/faq.css";
 /* meet our experts */
-@import './css/meet-our-expert.css';
+/* @import './css/meet-our-expert.css'; */
+/* Testimonial */
+@import "./css/testimonial.css";
 /* newsletter  */
-@import './css/newsletter.css';
+@import "./css/newsletter.css";
 /* footer */
-@import './css/footer.css';
+@import "./css/footer.css";
