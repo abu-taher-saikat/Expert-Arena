@@ -20,13 +20,17 @@
   color: #00acb6;
   font-weight: bold;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 10px;
 }
 .meet-our-team .team-card .team-member-post {
   color: #8c9299;
   font-family: "Open Sans";
   text-align: center;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 12px;
+  /* padding-left: 5px;
+  padding-right: 5px; */
+  padding-bottom: 10px;
 }
 
 .meet-our-team .team-card .line {
