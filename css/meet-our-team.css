@@ -1,0 +1,41 @@
+.meet-our-team .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.meet-our-team .heading {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.meet-our-team .team-card {
+  box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.meet-our-team .team-card img {
+  width: 100%;
+}
+.meet-our-team .team-card .team-member-name {
+  font-size: 20px;
+  color: #00acb6;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 25px;
+}
+.meet-our-team .team-card .team-member-post {
+  color: #8c9299;
+  font-family: "Open Sans";
+  text-align: center;
+  font-size: 16px;
+}
+
+.meet-our-team .team-card .line {
+  /* color: #00ACB6; */
+  margin-top: 10px;
+  border-top: 2px solid #00acb6;
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+/* background: #ffffff; */
